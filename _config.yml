@@ -19,6 +19,7 @@ baseurl: # the sub path of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
+social_image: social-preview.jpg
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -61,7 +62,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: /assets/img/social-preview.jpg # The site-wide (default for all links) Open Graph preview image
+og_image: social-preview.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -71,7 +72,7 @@ og_image: /assets/img/social-preview.jpg # The site-wide (default for all links)
 github_username: diksha-shrivastava13
 kaggle_id: dikshashri13702
 linkedin_username: diksha-shrivastava13
-twitter_username: Diksha1713
+x_username: Diksha1713
 
 contact_note: >
   Feel free to drop a message through Twitter, Email or LinkedIn! ☘️

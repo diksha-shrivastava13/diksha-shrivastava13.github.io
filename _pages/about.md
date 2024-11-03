@@ -9,8 +9,7 @@ profile:
   image: prof_pic_nice.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Prev - AI @ DPS, SAP, BMZ, AIM, Ivy, BU</p>
-    <p>Google KaggleX Fellow '22</p>
+    <p>Prev - AI @ DPS, SAP, BMZ, AIM, Ivy, BU | Google KaggleX Fellow '22</p>
 
 news: true # includes a list of news items
 latest_posts: false
@@ -32,7 +31,7 @@ social: true # includes social icons at the bottom of the page
   * ❄️ B2B SaaS, Production ML Systems, LLM Reasoning.
   * 🙃 I yap quite freely.
 * 📨 How to reach me -
-  * 👥 Where I'm most (although silently) active: https://x.com/Diksha1713
+  * 👥 Where I'm most (although silently) active: https://x.com/Diksha1713/
   * 🤸‍♀️ For resume stuff: https://www.linkedin.com/in/diksha-shrivastava13/
   * ✉️ Email: diksharaigarh57@gmail.com
 * 🧚‍♀️ Fun facts -
