@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-subtitle: AI Research Engineer exploring Reasoning & Abstract Link Representation 
+subtitle: <a href='#'>AI Research Engineer exploring Reasoning & Abstract Link Representation</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_nice.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
