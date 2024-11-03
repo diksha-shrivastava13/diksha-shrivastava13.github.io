@@ -1,24 +1,37 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Diksha Shrivastava",
+    "label": "AI Research Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "diksharaigarh57@gmail.com",
+    "phone": "+91-9644249222",
+    "url": "https://diksha-shrivastava13.github.io",
+    "summary": "AI Research Engineer exploring Reasoning & Abstract Link Representation | Prev - AI @ DPS, SAP, BMZ, AIM, Ivy, BU | Google KaggleX Fellow '22",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
+      "city": "New Delhi",
+      "countryCode": "Ind",
       "region": "California"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "X",
+        "username": "Diksha1713",
+        "url": "https://x.com/Diksha1713"
+      },
+      {
+        "network": "X",
+        "username": "Diksha1713",
+        "url": "https://x.com/Diksha1713"
+      },
+      {
+        "network": "X",
+        "username": "Diksha1713",
+        "url": "https://x.com/Diksha1713"
+      },
+      {
+        "network": "X",
+        "username": "Diksha1713",
+        "url": "https://x.com/Diksha1713"
       }
     ]
   },

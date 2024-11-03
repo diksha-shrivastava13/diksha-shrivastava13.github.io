@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>AI Research Engineer exploring Reasoning \& Abstract Link Representation | Prev - AI @ DPS, SAP, BMZ, AIM, Ivy, BU | Google KaggleX Fellow '22 </a>
 
 profile:
   align: right
@@ -14,6 +14,7 @@ profile:
     <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
+latest_posts: true
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
