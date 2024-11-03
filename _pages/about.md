@@ -2,16 +2,12 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>AI Research Engineer exploring Reasoning & Abstract Link Representation</a>
+subtitle: <a href=''>AI Research Engineer exploring Reasoning & Abstract Link Representation</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_nice.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 latest_posts: true
@@ -19,10 +15,26 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Prev - AI @ DPS, SAP, BMZ, AIM, Ivy, BU | Google KaggleX Fellow '22 </a>
+Prev - AI @ DPS, SAP, BMZ, AIM, Ivy, BU | Google KaggleX Fellow '22
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+* 🔭 I've recently finished delivering -
+  * 🗽 LLM-based Decision-Making Aid for Country Policies with Reasoning and Analysis Pipelines from a complex hierarchy of unstructured reports.
+  * 🔍 Custom Perplexity for internal technical documentation and communication, with continual learning from user feedback.
+* 🌱 I'm currently learning -
+  * ☘️ Distributed Systems in ML and GPU Programming.
+  * 🪄 Literally everything in the world. It never ends.
+* ⚡️ I'm currently working on -
+  * 😵‍💫 Approaches for Reasoning in Language Models.
+  * 🎯 A (hopefully) better (and abstract) data representation of linked entities.
+  * 🖇️ Next link, similar link and missing link prediction with LLMs.
+* 💬 Ask me about -
+  * ❄️ B2B SaaS, Production ML Systems, LLM Reasoning.
+  * 🙃 I yap quite freely.
+* 📨 How to reach me -
+  * 👥 Where I'm most (although silently) active: https://x.com/Diksha1713
+  * 🤸‍♀️ For resume stuff: https://www.linkedin.com/in/diksha-shrivastava13/
+  * ✉️ Email: diksharaigarh57@gmail.com
+* 🧚‍♀️ Fun facts -
+  * 💭 I've been found reading some research paper in the corner way too often in college (my current favourites are LeanAgent and Pantograph on lifelong learning, theorem proving and high-level reasoning!)
+  * ❤️ I almost certainly end up being the Tinkerbell of the teams I join. I love to research, and this side-obsession is what inadvertently brings the awesome factor to the products I've delivered. Love research, research is a must!
+  * 🙌 Too many people have too many stories of me falling down when I was busy laughing over nothing. This is an indication of stress.
