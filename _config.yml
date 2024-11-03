@@ -6,7 +6,7 @@ title: blank
 first_name: Diksha
 middle_name:
 last_name: Shrivastava
-email: diksharaigarh57@ggmail.com
+email: diksharaigarh57@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Diksha's Portfolio. Hosted by GitHub Pages.
 footer_text:
@@ -15,7 +15,7 @@ lang: en
 icon: ❄️️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://diksha-shrivastava13.github.io # the base hostname & protocol for your site
-baseurl: . # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the sub path of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -100,11 +100,11 @@ linkedin_username: diksha-shrivastava13
 #telegram_username: # your Telegram user name
 #unsplash_id: # your unsplash id
 #wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-whatsapp_number: +919644249222 (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+#whatsapp_number: +919644249222 (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 #wikidata_id: # your wikidata id
 #wikipedia_id: # your wikipedia id (Case sensitive)
 #work_url: # work page URL
-x_username: Diksha1713
+twitter_username: Diksha1713
 #youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 #zotero_username: # your zotero username
 

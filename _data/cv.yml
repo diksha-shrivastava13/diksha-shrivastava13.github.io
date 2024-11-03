@@ -2,11 +2,21 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Diksha Shrivastava
+    - name: Email Address
+      value: <a href="mailto:diksharaigarh57@gmail.com">diksharaigarh57@gmail.com</a>
+    - name: Phone Number
+      value: +91 9644249222
+    - name: Profiles
+      links:
+        - name: "GitHub"
+          link: "https://github.com/diksha-shrivastava13"
+        - name: "LinkedIn"
+          link: "https://www.linkedin.com/in/diksha-shrivastava13/"
+        - name: "Kaggle"
+          link: "https://www.kaggle.com/dikshashri13702"
+        - name: "Twitter"
+          link: "https://x.com/Diksha1713"
 
 - title: Education
   type: time_table
