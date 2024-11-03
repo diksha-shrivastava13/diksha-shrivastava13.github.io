@@ -8,14 +8,15 @@ profile:
   align: right
   image: prof_pic_nice.jpg
   image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Prev - AI @ DPS, SAP, BMZ, AIM, Ivy, BU</p>
+    <p>Google KaggleX Fellow '22</p>
 
 news: true # includes a list of news items
 latest_posts: false
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-
-`Prev - AI @ DPS, SAP, BMZ, AIM, Ivy, BU | Google KaggleX Fellow '22`
 
 * 🔭 I've recently finished delivering -
   * 🗽 LLM-based Decision-Making Aid for Country Policies with Reasoning and Analysis Pipelines from a complex hierarchy of unstructured reports.
