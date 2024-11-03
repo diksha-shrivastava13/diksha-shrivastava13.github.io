@@ -6,7 +6,7 @@ subtitle: <a href='#'>AI Research Engineer exploring Reasoning & Abstract Link R
 
 profile:
   align: right
-  image: prof_pic_nice.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
