@@ -43,7 +43,7 @@ For instance, every organisation and enterprise generates a lot of data of `holi
 without a robust system simply cannot use, and it really limits the generality of such systems, which inevitably break on little
 changes (as evidenced in [GSM-Symbolic](https://arxiv.org/html/2410.05229v1) and documented in my own work.)
 
-`Language Models being able to formulate ML problems` is the challenge I want to tackle. Well, that's about my personal 
+**Language Models being able to** `formulate ML problems` **is the challenge I want to tackle**. Well, that's about my personal 
 interests. I've gotten a little rusty at introducing myself, but since you're here, do take a look at my experiences, 
 engagements, projects and research to get a better picture ❄️. 
 
