@@ -17,8 +17,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey there! 👋 I'm `Diksha Shrivastava`, a final-year undergrad student completely in love with Machine Learning and Research.
-I've some experience delivering end-to-end Applied AI products; from discovering pain points in user interviews to rapid prototyping, 
+Hey there! 👋 I'm `Diksha`, a final-year undergrad student completely in love with Machine Learning and Research.
+I've some experience delivering end-to-end **Applied AI products**; from discovering pain points in user interviews to rapid prototyping, 
 delivering MVPs and optimising systems with user feedback loops, I've handled entire product cycles. I've recently finished
 delivering: 
   * 🗽 LLM-based `Decision-Making Aid for Country Policies` with Reasoning and Analysis Pipelines from a complex hierarchy of unstructured reports for **German Federal Ministry, BMZ**.
@@ -43,8 +43,9 @@ For instance, every organisation and enterprise generates a lot of data of `holi
 without a robust system simply cannot use, and it really limits the generality of such systems, which inevitably break on little
 changes (as evidenced in [GSM-Symbolic](https://arxiv.org/html/2410.05229v1) and documented in my own work.)
 
-Well, that's about my personal interests. I've gotten a little rusty at introducing myself, but since you're here, do take a 
-look at my experiences, engagements, projects and research to get a better picture ❄️. 
+`Language Models being able to formulate ML problems` is the challenge I want to tackle. Well, that's about my personal 
+interests. I've gotten a little rusty at introducing myself, but since you're here, do take a look at my experiences, 
+engagements, projects and research to get a better picture ❄️. 
 
 If something piques your interest, let's talk! 🙌
 
