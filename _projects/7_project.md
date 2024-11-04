@@ -19,7 +19,6 @@ To give your project a background in the portfolio page, just add the img tag to
     title: project
     description: a project with a background image
     img: /assets/img/12.jpg
-    Testing more css. It's being set to an ugly grey instead of the default or custom colours
     ---
 
 <div class="row">
