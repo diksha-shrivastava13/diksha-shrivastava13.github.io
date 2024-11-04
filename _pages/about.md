@@ -9,7 +9,7 @@ profile:
   image: prof_pic_nice.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Prev - AI @ DPS, SAP, BMZ, AIM, Ivy, BU | Google KaggleX Fellow '22</p>
+    <p>Prev - AI @ DPS, SAP, BMZ, AIM, Ivy, BU-AI, KaggleX</p>
 
 news: true # includes a list of news items
 latest_posts: false
