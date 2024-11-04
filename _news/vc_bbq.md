@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Got invited to the exclusive **Summer BBQ with UVC Partners** to meet VCs, Angel Investors and Start-Ups.
+Got invited to the `exclusive Summer BBQ` with **UVC Partners** to meet VCs, Angel Investors and Start-Ups.
