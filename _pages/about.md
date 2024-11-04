@@ -31,9 +31,9 @@ ahead of the world when we started working on this problem, as it is only now th
 systems" or "reasoning" being mentioned. The world, and ML Researchers, **move fast!**
 
 ⚡️ On that note, I'm currently dabbling in -
-  * 😵‍💫 Approaches for `Reasoning in Language Models`.
-  * 🎯 A (hopefully) better (and abstract) `data representation of linked entities`.
-  * 🖇️ Next link, similar link and missing `link prediction with LLMs`.
+  * 😵‍💫 Approaches for **Reasoning** in Language Models.
+  * 🎯 A (hopefully) better (and abstract) data **representation** of linked entities.
+  * 🖇️ Next link, similar link and missing **link prediction** with LLMs.
 
 With more work emerging on Continual Learning, Dynamic Databases, Hypotheses Generation ([LeanAgent](https://arxiv.org/abs/2410.06209) 
 and [Pantograph](https://arxiv.org/abs/2410.16429v1) are works of art!), I think it's important to explore similar link prediction, memory 
@@ -43,10 +43,12 @@ For instance, every organisation and enterprise generates a lot of data of `holi
 without a robust system simply cannot use, and it really limits the generality of such systems, which inevitably break on little
 changes (as evidenced in [GSM-Symbolic](https://arxiv.org/html/2410.05229v1) and documented in my own work.)
 
-Well, that's about my personal interests. I've gotten a little rusty on introducing myself, but since you're here, do take a 
+Well, that's about my personal interests. I've gotten a little rusty at introducing myself, but since you're here, do take a 
 look at my experiences, engagements, projects and research to get a better picture ❄️. 
-If something piques your interest, let's talk!
 
+If something piques your interest, let's talk! 🙌
+
+<!-- 
 I'm currently sharpening my skills on everything ML and software engineering, learning distributed systems for ML and GPU
 programming ☘️. This field is vast enough that learning never, ever ends. I want to develop the `midas-touch` for software,
 I've been fortunate enough to get work projects this year which necessitated this. I almost certainly end up being the Tinkerbell of the 
@@ -63,3 +65,5 @@ Meanwhile, feel free to reach out to me about anything Product, ML Systems, LM R
   * 👥 Where I'm most (although silently) active: [Twitter](https://x.com/Diksha1713/)
   * 🤸‍♀️ For resume stuff: [LinkedIn](https://www.linkedin.com/in/diksha-shrivastava13/)
   * ✉️ Email: diksharaigarh57@gmail.com
+
+-->
