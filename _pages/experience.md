@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profiles
 title: Experience
 permalink: /work/
 subtitle: <a href=''>Thinking Fast and Slow...</a>
@@ -47,13 +47,14 @@ profiles:
 
 ---
 
+### `Thinking Fast and Slow...`
 
-|  Role  | Company  | Description | Duration |
-|:------:|:--------:|:-----------:|:--------:|
-| Left 1 | center 1 |   right 1   |          |
-| Left 2 | center 2 |   right 2   |          |
-|  xyz   |   xyz    |     xyz     |   xyz    |
-| Left 3 | center 3 |   right 3   |          |
-|  xyz   |   xyz    |     xyz     |   xyz    |
-|  xyz   |   xyz    |     xyz     |   xyz    |
-|  xyz   |   xyz    |     xyz     |   xyz    |
+|    Role     | Company  |                                                      Description                                                       |  Duration   |
+|:-----------:|:--------:|:----------------------------------------------------------------------------------------------------------------------:|:-----------:|
+| AI Engineer | center 1 | `Custom Perplexity` for internal technical documentation and communication, with continual learning from user feedback | 1999 - 2005 |
+| AI Engineer | center 2 | `Custom Perplexity` for internal technical documentation and communication, with continual learning from user feedback | 1999 - 2005 |
+| AI Engineer |   xyz    | `Custom Perplexity` for internal technical documentation and communication, with continual learning from user feedback | 1999 - 2005 |
+| AI Engineer | center 3 | `Custom Perplexity` for internal technical documentation and communication, with continual learning from user feedback | 1999 - 2005 |
+| AI Engineer |   xyz    | `Custom Perplexity` for internal technical documentation and communication, with continual learning from user feedback | 1999 - 2005 |
+| AI Engineer |   xyz    | `Custom Perplexity` for internal technical documentation and communication, with continual learning from user feedback | 1999 - 2005 |
+| AI Engineer |   xyz    | `Custom Perplexity` for internal technical documentation and communication, with continual learning from user feedback | 1999 - 2005 |
