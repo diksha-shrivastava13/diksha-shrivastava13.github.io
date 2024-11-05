@@ -26,12 +26,29 @@ nav_order: 1
 </style>
 
 <div class="masonry-grid">
-  {% include figure.liquid loading="eager" path="assets/img/marco_sap.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-  {% include figure.liquid loading="eager" path="assets/img/linkedin_sap.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-  {% include figure.liquid loading="eager" path="assets/img/test.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-  {% include figure.liquid loading="eager" path="assets/img/bmz_cert.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-  {% include figure.liquid loading="eager" path="assets/img/dps_fpr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-  {% include figure.liquid loading="eager" path="assets/img/sap_cert.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7200741245877403649/" target="_blank" rel="noopener noreferrer">
+    {% include figure.liquid loading="eager" path="assets/img/marco_sap.jpg" class="img-fluid rounded z-depth-1" %}
+  </a>
+  
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7200756275641528320/" target="_blank" rel="noopener noreferrer">
+    {% include figure.liquid loading="eager" path="assets/img/linkedin_sap.jpg" class="img-fluid rounded z-depth-1" %}
+  </a>
+  
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7209122824613994496/" target="_blank" rel="noopener noreferrer">
+    {% include figure.liquid loading="eager" path="assets/img/test.jpg" class="img-fluid rounded z-depth-1" %}
+  </a>
+  
+  <a href="https://www.linkedin.com/in/diksha-shrivastava13/" target="_blank" rel="noopener noreferrer">
+    {% include figure.liquid loading="eager" path="assets/img/bmz_cert.jpg" class="img-fluid rounded z-depth-1" %}
+  </a>
+  
+  <a href="https://www.linkedin.com/posts/digital-product-school_90daysofdps-innovation-demo-activity-7196569539457773570-Q89o/" target="_blank" rel="noopener noreferrer">
+    {% include figure.liquid loading="eager" path="assets/img/dps_fpr.jpg" class="img-fluid rounded z-depth-1" %}
+  </a>
+  
+  <a href="https://www.linkedin.com/in/diksha-shrivastava13/" target="_blank" rel="noopener noreferrer">
+    {% include figure.liquid loading="eager" path="assets/img/sap_cert.jpg" class="img-fluid rounded z-depth-1" %}
+  </a>
 </div>
 
 
@@ -53,8 +70,8 @@ nav_order: 1
 
 
 <div class="twitter-grid">
-  {% twitter https://twitter.com/Diksha1713/status/1790326914244129082 %}
   {% twitter https://twitter.com/Diksha1713/status/1826228816257380539 %}
+  {% twitter https://twitter.com/Diksha1713/status/1790326914244129082 %}
   {% twitter https://twitter.com/Diksha1713/status/1841495118697697622 %}
   {% twitter https://twitter.com/Diksha1713/status/1821608248505692327 %}
   {% twitter https://twitter.com/Diksha1713/status/1781334449872924948 %}
@@ -64,7 +81,7 @@ nav_order: 1
   {% twitter https://twitter.com/Diksha1713/status/1771203046552326369 %}
   {% twitter https://twitter.com/Diksha1713/status/1768614287142953156 %}
   {% twitter https://twitter.com/Diksha1713/status/1736331388188766457 %}
-  {% twitter https://twitter.com/Diksha1713/status/1692137931727630481 %}
+  {% twitter https://twitter.com/Diksha1713/status/1809070321770672325 %}
 </div>
 
 More to be added... 🙂
