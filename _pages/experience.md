@@ -2,7 +2,6 @@
 layout: profiles
 title: Experience
 permalink: /work/
-subtitle: <a href=''>Thinking Fast and Slow...</a>
 description: <a href=''>Thinking Fast and Slow...</a>
 nav: true
 nav_order: 2
@@ -10,40 +9,61 @@ pretty_table: true
 
 profiles:
 
-  - align: right
-    image: 9.jpg
+  - align: left
+    image: bmz_logo.jpg
     content: about_bmz.md
     image_circular: false
+    more_info: >
+      <p>Munich, Germany </p>
+      <p> Hybrid | Full-Time </p>
 
   - align: left
-    image: 6.jpg
+    image: sap_logo.jpg
     content: about_sap.md
     image_circular: false 
+    more_info: >
+      <p>Munich, Germany </p>
+      <p> On-Site | Full-Time </p>
     
   - align: left
-    image: 5.jpg
+    image: dps_logo.jpg
     content: about_dps.md
     image_circular: false 
+    more_info: >
+      <p>Munich, Germany </p>
+      <p> Hybrid | Full-Time </p>
     
   - align: left
-    image: 4.jpg
+    image: dps_logo.jpg
     content: about_aim.md
     image_circular: false 
+    more_info: >
+      <p>Munich, Germany </p>
+      <p> Remote | Volunteer </p>
     
   - align: left
-    image: 9.jpg
+    image: ivy_logo.jpg
     content: about_ivy.md
     image_circular: false 
+    more_info: >
+      <p>London, UK </p>
+      <p> Remote | Part-Time </p>
     
   - align: left
-    image: 6.jpg
+    image: kagglex_logo.jpg
     content: about_kaggle.md
     image_circular: false 
+    more_info: >
+      <p>USA </p>
+      <p> Remote | Part-Time </p>
     
   - align: left
-    image: 5.jpg
+    image: bu_ai.jpg
     content: about_bu.md
     image_circular: false 
+    more_info: >
+      <p>Greater Noida, India </p>
+      <p> On-Site | Full-Time </p>
 
 ---
 
