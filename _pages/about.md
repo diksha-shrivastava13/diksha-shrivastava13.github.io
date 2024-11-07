@@ -28,7 +28,7 @@ More recently, I've been intrigued by the problem of reasoning in language model
 with BMZ, where for just a single question, an entire set of two-thousand nodes had to form the first k of top-k retrievals.
 This required setting up `complex reasoning, analysis and comparison pipelines`. Funnily enough, I think we were a little 
 ahead of the world when we started working on this problem, as it is only now that I see "report generation", "decision-making
-systems" or "reasoning" being mentioned. The world, and ML Researchers, **move fast!**
+systems" or "reasoning" being discussed. The world, and ML Researchers, **move fast!**
 
 ⚡️ On that note, I'm currently dabbling in -
   * 😵‍💫 Approaches for **Reasoning** in Language Models.
