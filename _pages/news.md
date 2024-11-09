@@ -37,18 +37,14 @@ nav_order: 1
   <a href="https://www.linkedin.com/feed/update/urn:li:activity:7209122824613994496/" target="_blank" rel="noopener noreferrer">
     {% include figure.liquid loading="eager" path="assets/img/test.jpg" class="img-fluid rounded z-depth-1" %}
   </a>
-  
-  <a href="https://www.linkedin.com/in/diksha-shrivastava13/" target="_blank" rel="noopener noreferrer">
-    {% include figure.liquid loading="eager" path="assets/img/bmz_cert.jpg" class="img-fluid rounded z-depth-1" %}
-  </a>
+
+  {% include figure.liquid loading="eager" path="assets/img/bmz_cert.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
   
   <a href="https://www.linkedin.com/posts/digital-product-school_90daysofdps-innovation-demo-activity-7196569539457773570-Q89o/" target="_blank" rel="noopener noreferrer">
     {% include figure.liquid loading="eager" path="assets/img/dps_fpr.jpg" class="img-fluid rounded z-depth-1" %}
   </a>
-  
-  <a href="https://www.linkedin.com/in/diksha-shrivastava13/" target="_blank" rel="noopener noreferrer">
-    {% include figure.liquid loading="eager" path="assets/img/sap_cert.jpg" class="img-fluid rounded z-depth-1" %}
-  </a>
+
+  {% include figure.liquid loading="eager" path="assets/img/sap_cert.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
 
