@@ -2,12 +2,14 @@
 layout: profiles
 title: Experience
 permalink: /work/
-description: <a href=''>Thinking Fast and Slow...</a>
 nav: true
 nav_order: 2
 pretty_table: true
 
 profiles:
+  
+  - align: left
+    content: exp_intro.md
 
   - align: left
     image: bmz_logo.jpg
