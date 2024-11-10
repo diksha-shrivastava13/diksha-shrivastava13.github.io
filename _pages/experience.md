@@ -17,7 +17,7 @@ profiles:
     image_circular: false
     more_info: >
       <p>Munich, Germany </p>
-      <p> Hybrid | Full-Time </p>
+      <p> Hybrid | On-Contract (DPS) </p>
 
   - align: left
     image: sap_logo.jpg
@@ -25,7 +25,7 @@ profiles:
     image_circular: false 
     more_info: >
       <p>Munich, Germany </p>
-      <p> On-Site | Full-Time </p>
+      <p> On-Site | On-Contract (DPS) </p>
     
   - align: left
     image: dps_logo.jpg
@@ -49,7 +49,7 @@ profiles:
     image_circular: false 
     more_info: >
       <p>London, UK </p>
-      <p> Remote | Part-Time </p>
+      <p> Remote | Full-Time </p>
     
   - align: left
     image: kagglex_logo.jpg
