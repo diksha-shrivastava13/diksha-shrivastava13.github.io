@@ -21,14 +21,15 @@ what can be some useful signals. The cute part about this problem was that the s
 so we had good mutual understanding of how things worked and weekly status. 
 
 Since the beginning, we had been taking inspiration from products like Phind.com and Kapa.ai. At the "Rip the Product"
-session at week 6, the Core Team at DPS pushed us to `be bold and brave` and afterwards I decided to throw away the entire
-AI backend. We started building the Internal SearchGPT which can answer user questions from `resources scattered
-across internal documentation, Slack and GitHub` with a list of sources and an option to provide feedback from UI as well
+session at week 6, the Core Team at DPS pushed us to `be bold and brave` and afterwards I decided to `throw away the entire
+AI` backend. We started building the Internal SearchGPT which can answer user questions from resources scattered
+across `internal documentation, Slack and GitHub` with a list of sources and an option to provide feedback from UI as well
 as natural conversation.
 
 The interesting parts of this are proprietary work which I should not talk about. Some other highlights here were writing
-many `custom modules for chunking, parsing and metadata augmentation, integrating Mlx into LlamaIndex, hosting private LLMs,
-the continual augmentation of answerable questions which aligns the knowledge base closely to user requirements`.
+many `15+ readers and ~13 LLM calls, custom modules for chunking, parsing and metadata augmentation, integrating Mlx 
+into LlamaIndex, hosting private LLMs, the continual augmentation of answerable questions which aligns the knowledge 
+base closely to user requirements`.
 
 I gave a two-hours long technical presentation during the product handover detailing every part of the code, every technical decision,
 all the whys of the models I used, scope for future development, all the custom augmentations I had made. That presentation
