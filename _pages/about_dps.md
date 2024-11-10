@@ -45,8 +45,6 @@ in the history of DPS and set the bar much, much higher.
 
 **In hindsight**, that fear of maybe not being good enough actually worked wonders.
 
-------------------
-
 When I later accepted the contract with BMZ, I was expecting to build something `to automate data science`, much like recent
 demos from PremAI or PandasAI or this other beautiful product which had released when ChatGPT was still new. And I thought
 God, _that_ is cool!
@@ -68,7 +66,7 @@ although I had to write the backend for the AI features and always pay attention
 
 The highest value generated here, in my opinion, would be the research I did and the methods I tried for this system. God,
 it was a hard problem. It in only recently I realised that `LLM-driven Monte Carlo Tree Search`, in a little different way from the 
-NeurIPS '23 paper, would have solved the search needed to assess previous outcomes of projects in same conditions and 
+[NeurIPS '23 paper](https://arxiv.org/abs/2305.14078), would have solved the search needed to assess previous outcomes of projects in same conditions and 
 predict outcomes. This came after obsessing over the problem for more than a month after the product handover.
 
 About the product handover, I honestly did not expect it to be _that_ celebrated. This was the `first project` DPS had in
