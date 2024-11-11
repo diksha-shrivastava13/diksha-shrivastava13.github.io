@@ -30,7 +30,7 @@ experience I had with generative AI before this had been finetuning a model for 
 using Cohere's API. Two months in, I was `customising LlamaIndex modules to perform on queries from 100,000+ users`.
 
 I was actually very nervous when I joined, considering I was the youngest in my batch and almost everyone else was a Masters
-student. My biggest fear was that there's a good enough chance I would be able to build the expected level of amazing,
+student. My biggest fear was that while there's a good enough chance I would be able to build the expected level of amazing,
 which is still an achievement, but it does not blow your mind and that way more learning is required to `leap to the unexpected,
 people-can't-stop-talking level of amazing`. And it gave me many sleepless nights.
 
