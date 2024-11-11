@@ -5,9 +5,9 @@ title: CV
 nav: true
 nav_order: 5
 cv_pdf: DikshaShrivastava_Sept24.pdf
-description: A more formal overview of my work history. Use the "PDF" icon to view in pdf format 🙃.
+description: When I grow up, and am old and wise, I would want to head or be at a non-profit Research Institute for Artificial Intelligence 🙂. See the Experience section for a more heartfelt walkthrough of my work ❄️.
 toc:
   sidebar: left
 ---
 
-`A more formal overview of my work history. Use the "PDF" icon to view in pdf format 🙃.`
+

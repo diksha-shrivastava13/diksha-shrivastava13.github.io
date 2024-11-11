@@ -5,8 +5,6 @@
       value: Diksha Shrivastava
     - name: Email Address
       value: <a href="mailto:diksharaigarh57@gmail.com">diksharaigarh57@gmail.com</a>
-    - name: Phone Number
-      value: +91 9644249222
     - name: Profiles
       links:
         - name: "GitHub"
@@ -17,91 +15,362 @@
           link: "https://www.kaggle.com/dikshashri13702"
         - name: "Twitter"
           link: "https://x.com/Diksha1713"
+        - name: "Portofolio"
+          link: "https://diksha-shrivastava13.github.io/"
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Technology, Computer Science and Engineering
+      specialization: Artificial Intelligence
+      institution: Bennett University, India
+      year: Sept '21 - Jun '25
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Specialisation in Artificial Intelligence; 9.03 CGPA
+        - title: Key Courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+            - Computational Thinking and Programming, Engineering Calculus, Discrete Mathematical Structures, Linear Algebra and Ordinary Differential Equations.
+            - Data Structures using C++, Probability and Statistics, Statistical Machine Learning, Design and Analysis of Algorithms, Artificial Intelligence and Machine Learning
+            - Intelligent Model Design and Thinking, Automata Theory and Computability, Soft Computing, Image and Video Processing, Natural Language Processing
+            - Undergraduate Research in Computer Science Engineering, Current Technology Project, Special Topics in Artificial Intelligence, Special Topics in Computer Engineering
+        - title: Achievements
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+            - Awarded for academic performance by Dr. Deepak Garg.
+            - Awarded for extraordinary hackathon performance by Dr. Aditya Bhardwaj.
+            - Won multiple hackathons and industry showcases, worked on multiple research papers (mostly in healthcare + AI) under mentorship of professors.
+            - Got accepted as a Google-TalentSprint Women Engineer Scholar and Google KaggleX Fellow, and received grants to pursue studies in AI.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Work Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: AI Engineer
+      institution: Digital Product School with BMZ
+      year: Jun '24 - Sept '24
+      description:
+        - title: AI Product Engineering
+          contents:
+            - Search capability in natural language on one document and multiple documents at once for the changing 
+              values of the same entities.
+            - Extraction of the complex tables, flowcharts and text from documents along with with entity relations and
+              inferred KPIs.
+            - Determination of learning lessons and scope of improvements for the programs.
+            - Recommendations for political dialogues for the project implementation and for improvement of programs.
+            - Risk analysis for factors which might lead to delays and non-completion of programs.
+            - Detection of Anomalies in multiple reports belonging to the same umbrella.
+            - Search-based similarity and comparison analysis of growth of projects with overlapping factors.
+            - Analysis of KPIs growth and effect from projects to programs levels throughout the years.
+            - Handled stakeholder management on the technical side and rapid prototyping of AI features to test hypotheses.
+            - Implemented an efficient RAG pipeline with multiple features which responds in a maximum of 15 seconds, improving over the previous performance of 5 minutes for a relatively simpler RAG pipeline.
+            - Handled the AI part of the entire Migration to Azure. Changed the implementation from TypeScript to Python, removed unnecessary API calls.
+        - title: AI Research Engineering
+          contents:
+            - Benchmarked eight LLM-based methods for extraction and analysis of quantitative data from hierarchical, interrelated, unstructured reports correlating KPIs of lower levels to the higher levels.
+            - Implemented multiple augmentations to vector database, search and retrieval, context reordering, user-verified custom metadata for nodes, few-shot prompting, property graphs, GraphRAG, and agentic parsing and planning for tasks to satisfy user requirements.
+            - Long Context Reorder during inference time of 2000 nodes at once.
+            - Benchmarked approaches with LLMs, OCR and inference methods for RAG with guided reasoning pipelines.
+            - Tested GraphRAG and Property Graph Indexing for relationship tracking.
+            - Agentic Approach to produce planning and reasoning data for each of the the tasks on which SLMs may be trained.
+            - Agentic standardising of the structure of the reports.
+            - Custom Metadata Augmentation for vector database to allow for relationships search and comparison of entities at every level of the hierarchy.
+            - Developed and deployed multiple Proof-of-Concepts using Azure Cloud, LlamaIndex, LlamaParse, Pinecone and Neo4j.
+    - title: AI Engineer
+      institution: Digital Product School with SAP
+      year: Feb '24 - May '24
+      description:
+        - title: Product Development
+          contents:
+            - Developed ai-SAP used by 100,000+ SAP employees & customers, with one-point search and chat
+              functionality to data across internal documentation, GitHub and Slack, in a cross-functional team.
+        - title: LLM Architecture
+          contents:
+            - Implemented a system with 15+ readers and 13+ calls to privately deployed LLM,
+              including semantic chunking, metadata extraction, recursive retrieval, intent classification, feedback loop,
+              reflection-generation cycle, response synthesis and continual learning with explainability.
+            - Developed a feedback loop such that the metadata of questions which can be answered from any node are augmented
+              from user behaviour if a negative sentiment is detected so that the query is answered correctly the next time.
+        - title: Deployment
+          contents:
+            - Integrated a CI/CD pipeline using Google Cloud Build and Google Cloud Run. Reduced search
+              and debug time from 12+ hours (and days sometimes) to 5 seconds. Integrated Mlx server into LlamaIndex for
+              rapid prototyping. Modified LlamaIndex to implement custom chunking, extraction and retrieval strategies.
 
-- title: Honors and Awards
+    - title: Core Contributor - ML
+      institution: Unify.ai (YC W23)
+      year: Jul '23 - Oct '23
+      description:
+        - title: Ivy Frontend API
+          contents:
+            - Analyzed 5+ ML Frameworks’ structure (TensorFlow, JAX, PyTorch, PaddlePaddle,
+              MindSpore, NumPy) and added loss, conv, nn, ops functions and tests to the Frontend API wrapping Ivy.
+        - title: Ivy Backend API
+          contents:
+            - Extended the Backend API for PyTorch and NumPy by incorporating functionalities from
+              5+ ML frameworks. Fixed tests for different ML frameworks, debugged Frontend APIs. Assisted with fixing
+              MindSpore’s testing pipeline. Gained experience working with CI/CD.
+        - title: Community Engagement
+          contents:
+            - Assisted with open-source contributions, engaged in the model garden, developed
+              understanding of graph compiler optimization and integrating Ivy into open-source repositories.
+
+    - title: Google KaggleX Fellow
+      institution: Kaggle
+      year: Dec '22 - Mar '23
+      description:
+        - title: Achievement
+          contents:
+            - Selected as one of the Top 152 mentees across 15+ countries and 20+ timezones among more
+              experienced professionals. Received a grant to pursue ML as a profession.
+        - title: Program Participation
+          contents:
+            - Early-career Kaggler mentored by Ms. Usha Rengaraju (ML Google Developer
+              Expert), worked on modeling Music Transformers (arXiv:1809.04281), Symbolic Music Understanding and
+              Generation. Attended multiple workshops and Kaggle Competitions.
+        - title: Symbolic Music Generation
+          contents:
+            - Developed audio and MIDI generation models with Librosa, Music21, LSTM
+              and RNN, applied multiclass classification for recognizing music genres.
+
+    - title: Student Researcher
+      institution: Bennett - NVIDIA Centre for Artificial Intelligence
+      year: Apr '22 - Jul '22
+      description:
+        - title: Research Endeavour
+          contents:
+            - Worked on ”Analysis of Neural Correlates of Different Music Genres using Machine
+              Learning” as first author, selected for Fechner Day ’22 Conference at Sweden.
+        - title: MRI Data Modelling
+          contents:
+            Conducted fMRI processing and utilized SPM and PRoNTO in MATLAB for
+            classification. Investigated the effects of music on individuals with disorders.
+
+    - title: Women Engineer Scholar
+      institution: Program by TalentSprint, Supported by Google
+      year: Mar '22 - Mar '24
+      description:
+        - title: Mentorship
+          contents:
+            - Started developing a ML Framework for Julia, received mentorship on Data Strctures and Algorithms.
+        - title: Achievement
+          contents:
+            - Chosen as one of the Top 250 from 30,000+ applicants, awarded a 100% Scholarship for
+              training by Google and TalentSprint experts.
+
+- title: Community Initiatives
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: AI Engineer and Mentor
+      institution: AI Makerspace by Digital Product School
+      year: Jul '24 - Present
+      description: Help with building internal tools to ease the workload at DPS, mentor teams, assist in workshops, 
+                   develop tutorials and participate in hackathons. Developing a working prototype of GraphRAG, mentored
+                   two teams on report generation and general ideation in the Batch-22 of DPS.
+    - title: Head of Open Source Department, now Mentor
+      institution: Artificial Intelligence Society, Bennett University
+      year: Oct '23 - Present
+      description: Facilitated the orchestration of Kaggle Competitions, steering a team of 60+ students in contributing
+                   to open-source ML repositories. Now acting as a mentor for the current team.
+    - title: Co-Head of Research Department
+      institution: Computer Society of India Chapter, Bennett University
+      year: Sept '22 - May '23
+      description: Guided a dedicated team of 6 students in crafting their own research papers, offering mentorship in 
+                   machine learning, data science, and deep learning. Cultivated a culture of collaborative research and 
+                   technical projects, providing mentorship on Artificial Intelligence and Data Science aspects.
+    - title: Student Researcher
+      institution: Bennett Undergraduate Research Society
+      year: Nov '21 - Jun '21
+      description: Conducted in-depth research on diverse topics including the Recognition of Cues of Distress in 
+                   Animals, the Study of History and Development in Theory of Mind AI, and the development of Iksha - 
+                   a Neurological Tool integrated with AI and Virtual Reality.
+    - title: Student Developer
+      institution: HarmonyOS Club, Bennett University
+      year: Oct '21 - Jan '21
+      description: Received expert guidance from Huawei professionals, honing Android development skills. Actively 
+                   participated in multiple lectures and workshops, contributing to a rich learning experience.
 
-- title: Academic Interests
+- title: Projects and Research
+  type: time_table
+  contents:
+    - title: Vector-Graph Hybrid RAG Methods
+      year: July 2024
+      items:
+        - A collection of all available Graph-Vector Hybrid RAG Approaches, with custom versions born out of curiosity, 
+          a quickly implementable interface, data connectors, visualisers and performance benchmarks.
+        - Born out of the need to handle holistic, interrelated systems data which cannot directly be handled by LLMs,
+          both due to limited retrieval abilities for complex relationships and context length issues when it's a thousand
+          nodes at once.
+    - title: Celestial Navigation with Deep Learning
+      year: December 2023
+      items:
+        - Implemented a Marine Navigation system using computer vision and deep learning, employing a CNN with Haversine
+          Loss and Monte Carlo Dropout to achieve sub-1 nautical mile positional accuracy.
+        - Tech - Python, Skyfield, TensorFlow, CNN, Haversine Loss, Monte Carlo Dropout.
+    - title: Implementation of the Bayesian Flow Networks paper
+      year: December 2023
+      items:
+        - BFNs merge Bayesian Flow Networks and residual blocks for robust learning on extensive datasets. Played around
+          with some hypotheses and tested BFNs for text generation.
+          Tech - Python, TensorFlow, PyTorch.
+    - title: Vision - Navigational Aid for Visually Impaired
+      year: December 2023
+      items:
+        - Engineered a comprehensive navigation system for visually impaired individuals in India, akin to Google Maps' 
+          live view. Leveraged object detection, multimodal models, visual question answering, semantic segmentation, 
+          and fusion models.
+        - Tech - TensorFlow, OpenCV, YOLOv7, SpaCy, KerasNLP, KerasCV.
+        - Met awesome people during this project!
+    - title: Soundscapes - Analysis of Music on Individuals with Intellectual & Development Disorders
+      year: December 2023
+      items:
+        - Addressed the challenge of early diagnosis by distinguishing EEG patterns of individuals with IDD and Typically
+          Developing Controls (TDC). Achieved a 96% accuracy with SVM and identified IDD using LSTM. Explored emotional
+          responses from EEG data for personalized music therapy, emphasizing the significance of early detection and 
+          tailored interventions.
+        - Implemented models - LSTM, GNB, KNN, Random Forest, SVM, QDA, using TensorFlow, Keras, scikit-learn, numpy, 
+          matplotlib, pandas, seaborn, and scipy.
+        - Another project close to my heart due to the implications it had.
+    - title: Robotouille - Fine-tuned Culinary Robots
+      year: December 2023
+      items:
+        - Contributed to the creation of a user-friendly software framework for controlling cooking robots. Fine-tuned
+          a LLM to generate recipes from various types of descriptions. Tech - Python, ROS, LLM
+        - Won the 2nd prize at the Fork-It Hackathon at IIIT-Delhi, presented the app at the 5th Symposium of Computational
+          Gastronomy.
+    - title: Analysis of Accidents in Munich
+      year: December 2023
+      items:
+        - Implemented 12 models to forecast the trend of accidents in Munich, handling cases like Covid-19.
+    - title: ChessGAN
+      year: October 2023
+      items:
+        - Led the ChessGAN project, implementing GANs for Chess to generate machines playing at a human
+          level while losing 50% of the time. Applied deep probabilistic models, including Bayesian and reinforcement
+          learning, achieving interesting observations.
+        - It is actually hard to lower performance so that the "perfection" doesn't lead to the conclusion that a machine
+          is playing the game. Interesting Turing thought experiments here.
+    - title: JuliaMind - ML Framework in Julia
+      year: September 2023
+      items:
+        - Initiated and led the development of an open-source ML Framework in Julia, inspired by PaddlePaddle, to enrich
+          Julia's deep learning ecosystem. Serving as the creator and maintainer, overseeing the project's evolution and
+          enhancement. Tech - Julia.
+        - Started Sept '23. All the structure is there, open to contributions.
+        - Worked on simulations of differential equations with Julia for some time before internship season took over.
+    - title: IntruDED - Intrusion Detection System
+      year: May 2023
+      items:
+        - Implemented a machine learning-based IDS for cybersecurity. Developed models utilizing TensorFlow and scikit-
+          learn, ensuring robust intrusion detection. Applied SVM, Random Forest, and Neural Networks to achieve accurate
+          threat identification.
+    - title: Muse - Symbolic Music Understanding & Generation
+      year: March 2023
+      items:
+        - Engaged in Music Transformers and Symbolic Music Understanding in an immersive program. Spearheaded the 
+          development of audio and MIDI generation models using Librosa, Music21, LSTM, and RNN. Implemented multiclass 
+          classification for precise recognition of music genres.
+        - A project from KaggleX, very close to my heart.
+    - title: Dark Matter Substructures
+      year: March 2023
+      items:
+        - Directed the development of an Equivariant Neural Network to precisely identify three distinct dark matter
+          substructures. Tech - Python, TensorFlow, JAX.
+        - Interesting rabbit Hole from the GSoC '23 times.
+    - title: Vision 2.o - Text Detection, Recognition & Translation on android app
+      year: March 2023
+      items:
+        - Contributed to the "Vision 2.0" project, implementing Text Detection, Recognition, and Translation in an 
+          Android app using the Google ML Android toolkit. Tech - Kotlin, ML Toolkit, Android Studio.
+        - Single-handedly built the prototype in one night for the hackathon month, improving a lot over the existing
+          examples with text recognition and UI.
+    - title: Heart Disease, Stroke, Parkinson Detection
+      year: November 2022
+      items:
+        - Led the project, employing advanced techniques such as Artificial Neural Network, Random Forest Classifier, 
+          and XGBoost. Leveraged a tech stack including Python, TensorFlow, NumPy, scikit-learn, Seaborn, Plotly, and 
+          Pandas for comprehensive analysis and modeling.
+        - Somehow ended up giving a deep learning viva to my Statistical Machine Learning professor while presenting this
+          in the hackathon month. Got forwarded for Industry Showcase.
+    - title: Alzheimer Detection
+      year: November 2022
+      items:
+        - Led a project utilizing FastAI and ResNet50 for predicting Alzheimer's risk based on Magnetic Resonance Imaging.
+          Employed a tech stack comprising FastAI, OpenCV, and PyTorch to ensure precise and impactful results.
+        - Somehow ended up giving a deep learning viva to Dr. Tej while presenting this in the hackathon month. Got
+          forwarded for Industry Showcase.
+    - title: DeepFake Detection
+      year: October 2022
+      items:
+        - Developed a deepfake detection system for videos, incorporating a hybrid architecture of Long Short-Term 
+          Memory (LSTM) and Convolutional Neural Network (CNN). Implemented the model to accurately detect the number of 
+          eye blinking within a specified time period, enhancing the capability to identify manipulated content. 
+          Tech - Python, TensorFlow, OpenCV.
+    - title: WildCue - Recognition of Distress in Animals
+      year: August 2022
+      items:
+        - Led the development of an application to monitor the well-being of street animals and wildlife in sanctuaries.
+          Implemented methods like object detection, body language recognition, and audio classification to detect 
+          declining health. Established an alert system to prevent potential abuse and enhance animal welfare.
+        - Received "do not try to solve all of world's problems with one pitch" feedback. Fixed pitching skills after
+          that. Really, do not oversell, just find a real problem to solve.
+    - title: MentiWell - Prediction of Self-Harm
+      year: May 2022
+      items:
+        - Led the development of MentiWell, a comprehensive Mental Health and AI project encompassing Text-Sentiment 
+          Analysis, Social-Media Activity Sentiment Analysis, IOT-based Mental State Monitoring, Directional Surveys, 
+          and Emotion Detection. Applied technologies including Tensorflow, Natural Language Processing, Scikit-Learn, 
+          Keras, and OpenCV. Focused on predicting and preventing self-harm through Mental Well-Being Analysis.
+        - Won the Hackacinno '22 hackathon with this.
+    - title: Virtual Mouse
+      year: December 2021
+      items:
+        - Directed a project focusing on finger tip landmarks for the identification of five hand gestures, each
+          corresponding to specific mouse functions. This initiative aimed at enhancing user experience for individuals
+          with speech disabilities. Employed a tech stack featuring Python, MediaPipe, OpenCV, PyAutoGui, and AutoPy
+          to ensure seamless implementation.
+    - title: Invisible Cloak
+      year: November 2021
+      items:
+        - Cutesy project from the first year which cloaks the area of a specific colour and replaces it with the background to give the 
+          effect of an invisible cloak. Learnt some more CV here.
+    - title: Face Mask Detection
+      year: October 2021
+      items:
+        - Created a Convolutional Neural Network (CNN) model for mask detection, leveraging technologies such as Python,
+          MobileNet, OpenCV, TensorFlow, Keras, NumPy, and Matplotlib.
+        - The first ML project I ever did in the first month of the first year of my Bachelors.
+
+
+- title: Achievements
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: 2024
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Handed over a LLM-based Decision-Making Product for the German Federal Ministry, BMZ with reasoning pipelines for complex data analysis, risk assessment, similarity, KPIs growth, recommendations for change, and comparative report generation from a complex hierarchy of unstructured reports.
+        - Presented our product to the Data Lab at German Federal Ministry, BMZ to deliver the state-of-the-art methods on reasoning and analysis in language models to reduce analysis and feedback time from six months to about a week.
+        - Got invited to the exclusive Summer BBQ with UVC Partners to meet VCs, Angel Investors and Start-Ups.
+        - Handed over a Search Product for internal technical documentation and communication to SAP, which is to be distributed worldwide as a SAP product for developers to reduce their debugging times from hours to a few minutes.
+        - Presented our product to Angel Investors and VCs at Meta, IBM, UnternehmerTUM, MTZ, AWS, United Internet Media GmBH to receive tremendous appreciation and feedback, with offers for funding if turned to a white-label product.
+        - Joined the Digital Product School as an AI Engineer.
+        - Graduated from the WE Program.
+    - title: 2023
       items:
-        - Description 1.
-        - Description 2.
+        - Won 2nd Prize at the Fork-It hackathon with a fine-tuned LLM and some PyRos code. Presented it at the 5th Symposium of Computational Gastronomy.
+        - Delivered a seminar on MLOps, Model Drift and Introduction to Weights and Biases.
+        - Completed the KaggleX program, selected as top 152 mentees across the world, received a grant to pursue AI.
+    - title: Earlier
+      items:
+        - Alzheimer Detection project shortlisted for an industry showcase out of 700+ students. (November ’22)
+        - Chosen as one of the Top 250 from 30,000+ applicants, awarded a 100% Scholarship for training by Google and TalentSprint experts. (March ’22)
+        - Hackacinno Hackathon Winner - Secured 1st prize while working on ’Prediction and Prevention of Self-Harm with
+          Mental Well-Being Analysis’ among 40+ teams. (May ’22)
+        - Selected for Fechner Day 2022 at LU, Sweden, by the International Society for Psychophysics. (July ’22)
+        - Topped the Computational Thinking and Programming Course (with Python) among 500+ students. Recognized for 
+          extraordinary performance in the Hackathon. (May ’22)
 
-- title: Other Interests
+- title: Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Languages:</u> Python, Julia, BASH, C++, SQL, TypeScript
+    - <u>ML Frameworks:</u> TensorFlow, PyTorch, JAX, Keras, NLTK, HuggingFace, MediaPipe, Statsmodels, Sktime, Scikit-learn, OpenCV
+    - <u>AI Engineer Stack:</u> LlamaIndex, LangChain, Any Vector & Graph Database
+    - <u>Development:</u> Docker, FastAPI, Flask, Django, Azure, GCP, AWS
+    - <u>Soft Skills:</u> AI Product Management, Rapid Prototyping, Lean Startup Approach, Design Thinking, Data Thinking, Agile Product Development, Cross-Functional Team Leadership, Risk Validation, Customer Interviews
