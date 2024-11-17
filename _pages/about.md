@@ -21,7 +21,7 @@ Hey there! 👋 I'm `Diksha`, a final-year undergrad student completely in love 
 I've some experience delivering end-to-end **Applied AI products**; from discovering pain points in user interviews to rapid prototyping, 
 delivering MVPs and optimising systems with user feedback loops, I've handled entire product cycles. I've recently finished
 delivering: 
-  * 🗽 LLM-based `Decision-Making Aid for Country Policies` with Reasoning and Analysis Pipelines from a complex hierarchy of unstructured reports for **German Federal Ministry, BMZ**.
+  * 🗽 LLM-based `Decision-Making Aid for Country Policies` with Reasoning and Analysis Pipelines from a complex five-level hierarchy of unstructured reports for **German Federal Ministry, BMZ**.
   * 🔍 `Custom Perplexity` for internal technical documentation and communication, with continual learning from user feedback for **developers at SAP**.
 
 More recently, I've been intrigued by the problem of reasoning in language models. This started due to the work I did

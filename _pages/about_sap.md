@@ -27,12 +27,14 @@ across `internal documentation, Slack and GitHub` with a list of sources and an 
 as natural conversation.
 
 The interesting parts of this are proprietary work which I should not talk about. Some other highlights here were writing
-many `15+ readers and ~13 LLM calls, custom modules for chunking, parsing and metadata augmentation, integrating Mlx 
+many `custom modules for chunking, 15+ readers and ~13 LLM calls system, parsing and metadata augmentation, integrating Mlx 
 into LlamaIndex, hosting private LLMs, the continual augmentation of answerable questions which aligns the knowledge 
 base closely to user requirements`.
 
 I gave a two-hours long technical presentation during the product handover detailing every part of the code, every technical decision,
 all the whys of the models I used, scope for future development, all the custom augmentations I had made. That presentation
 was `one of my brightest experiences of 2024`.
+
+Read more: [Rapid Prototyping requires Rapid Learning - My Experience Building a Search Product](my blog link).
 
 *(In partnership with Digital Product School)*
