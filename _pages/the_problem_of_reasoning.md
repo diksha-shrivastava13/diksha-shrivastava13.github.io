@@ -1,17 +1,44 @@
 ---
-layout: page
+layout: distill
+title: Reasoning in Holistic Systems
+description: My Compiled Work on Reasoning, Abstract Representation and Similar Link Prediction
 permalink: /research/
-toc:
-  sidebar: right
+pretty_table: true
 ---
+# Introduction 👋 
 
-<div style="text-align: center; font-size: 36px; font-weight: bold;">
-The Problem of Reasoning
-</div>
+This work presents all the research and engineering I've done in the domain of language model reasoning, abstract representation of linked
+entities and similar link prediction. I worked on-contract for the **Federal Ministry of Economic Cooperation and Development
+of Germany (BMZ)** in partnership with the Digital Product School by UnternehmerTUM during summer 2024, 
+where I explored the efficiency of Large Language Models (LLMs) in designing Decision-Making Systems for unstructured 
+reports in a five-level hierarchy to aid in country policy decisions and negotiations.
 
-<div style="text-align: center;">
-<a href=''>My Compiled Work on Reasoning, Abstract Representation and Similar Link Prediction</a>
-</div>
+The work at BMZ required me to design complex reasoning and analysis pipelines which could answer critical questions by finding all 
+relevant nodes and comparing the similarities and understanding the relationships between every entity at every level. I 
+accomplished this by following a world model along with policy models for each of the subtasks with multi-hop reasoning with
+an agentic approach.
+I also talk about the fifty-four modifications I tried for this system, including Property Graphs, GraphRAG, Generation 
+of Agentic Planning-Reasoning Data for Mixture-of-Experts (MoE), Agentic Standardising of Reports, Reason-Guided Parsing and 
+the multiple variations of data representation.
+
+Following the work at BMZ, I was intrigued by the problem of the large data generated in holistic systems on 
+which it is hard and time-taking to determine the correlations between subsystems and entities, and formulate machine 
+learning problems. Hence, I explored hybrid ways to represent the data and relationships of subsystems and eventually came
+up with Swan AI. My research at Swan AI focused on answering the question: **is there a way that Language Models can learn
+the relationships between entities, identify similar links on the go and make predictions?**
+
+I further talk about some thought experiments I conducted with LLMs to test their ability to learn links, identify and
+predict similar links by creating fictional characters in the "Arc" world.
+With no surprise to anyone, GPT-4o miserably failed.
+While I didn't have a benchmark to showcase, the experiment was based on the same concepts as the ARC-AGI 
+problem: learning the relationships in new data, and reason based on the relationships.
+
+My research with BMZ, Swan AI and afterwards led me to the conclusion that agency in a dynamic database and
+training pipelines is necessary to represent learnt links so the data objects may be fluid, but the relationships themselves
+are "memorised." I further emphasize the importance of frameworks (such as LeanAgent, which was shortly released afterwards)
+which have some factors of hypotheses cycles, dynamic databases, and continual learning. The more recent works on 
+Test-Time Training (TTT) also support the importance of hypotheses cycles. I conclude by arguing the need for more work 
+on data representation.
 
 ----------
 
@@ -19,12 +46,11 @@ The Problem of Reasoning
 Note: The data used in these projects is sensitive, and I have taken the utmost care to protect all private information.
 In case anything missed my attention, please let me know by emailing at diksharaigarh57@gmail.com.
 </div>
+
 ----------
 
-### Introduction 👋
-
-### **The Problem at BMZ**
-#### Designing a Decision-Making System for Country Policy Decisions & Negotiations
+# The Problem at BMZ
+### Designing a Decision-Making System for Country Policy Decisions & Negotiations
 
 In the summer of 2024, I accepted a contract to work on a dashboard which automates data science for a GovTech product. I thought I would be building a <em>multi-agentic workflow</em> which performs EDA, a beautiful dashboard with toggles for each of the features which visualizes the impact on the target and helps the government <em>decide on factors like budget, implementation area, impact of rainfall (or the Ukraine war)</em> and help make better decisions while <em>protecting their projects from risks</em>.
 
@@ -88,11 +114,8 @@ This has to be <em>done dynamically</em> <em>for every project from every progra
 This is when the problem of reasoning began really bothering me.
 
 
-<div class="header-container">
-  <h3 id="modifications-bmz" class="custom-main-heading"> 
-    My 54 Modifications on Naïve RAG for BMZ
-  </h3>
-</div>
+# My 54 Modifications on Naïve RAG for BMZ
+
 
 My biggest learning at DPS has been to keep things simple, although I do tend to slip sometimes. I find that an effective balance between exploration and exploitation is to ship fast and let things break (for some cases); you get strong signals for the next better approach while still fulfilling some user requirements.
 
@@ -123,6 +146,7 @@ Information includes:
 * \[From multiple reports\] Chances and causes for potential delay and budget changes.
 
 The User Journey on the Platform:
+
 
 | Steps | User Action                                                                                                                                                                | Technical Feature                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Problems Addressed                                                                                                                                                                                                        | Information Gained                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |-------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
