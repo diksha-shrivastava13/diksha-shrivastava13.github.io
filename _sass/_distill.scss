@@ -20,25 +20,48 @@ d-article d-byline a {
 
 d-article {
   border-top-color: var(--global-divider-color) !important;
-  p,
+  p{
+    font-family: "Times New Roman", Times, serif;
+  }
   h1,
   h2,
-  h3,
+  h3{
+   font-family: "Times New Roman", Times, serif;
+  }
   h4,
   h5,
   h6,
   li,
   table {
     color: var(--global-text-color) !important;
+    font-family: "Times New Roman", Times, serif;
+    border-color: #00b0ff;
   }
   h1,
   h2,
   hr,
   table,
-  table th,
-  table td {
-    border-bottom-color: var(--global-divider-color) !important;
+  table th{
+    border-left: #00b0ff !important;
+    border-right: #00b0ff !important;
   }
+  table td {
+    border-bottom-color: #00b0ff !important;
+    border-left: #00b0ff !important;
+    border-right: #00b0ff !important;
+  }
+  table td, table th {
+    border-left: #00b0ff !important; /* Add vertical borders to columns */
+    border-right: #00b0ff !important; /* Optional: right border for cells */
+    padding: 8px; /* Optional: padding for spacing */
+  }
+  table td:first-child, table th:first-child {
+    border-left: none; /* Remove the left border for the first column */
+  }
+  table td:last-child, table th:last-child {
+    border-right: none; /* Remove the right border for the last column */
+  }
+
   a {
     color: var(--global-theme-color) !important;
     &:hover {
