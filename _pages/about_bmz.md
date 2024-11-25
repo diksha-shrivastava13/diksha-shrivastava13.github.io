@@ -44,6 +44,6 @@ each of the subtasks.
 
 **Three weeks later, o1 was released.**
 
-Read more: [Building a what now? - My Experience on Working with Agents, LMs and the Challenge of Reasoning](my blog link).
+Read more: [Building a what now? - My Experience on Working with Agents, LMs and the Challenge of Reasoning](https://diksha-shrivastava13.notion.site/Diksha-s-Musings-and-Findings-148e9b1b1b2a8033bd1edb5b41a5b382).
 
 *(In partnership with GovTech Campus, Deutschland and Digital Product School)*

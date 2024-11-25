@@ -35,6 +35,6 @@ I gave a two-hours long technical presentation during the product handover detai
 all the whys of the models I used, scope for future development, all the custom augmentations I had made. That presentation
 was `one of my brightest experiences of 2024`.
 
-Read more: [Rapid Prototyping requires Rapid Learning - My Experience Building a Search Product](my blog link).
+Read more: [Rapid Prototyping requires Rapid Learning - My Experience Building a Search Product](https://diksha-shrivastava13.notion.site/Diksha-s-Musings-and-Findings-148e9b1b1b2a8033bd1edb5b41a5b382).
 
 *(In partnership with Digital Product School)*
