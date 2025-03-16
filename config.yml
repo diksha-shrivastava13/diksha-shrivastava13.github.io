@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://diksha-shrivastava13.github.io/latent-realities"
+title: Test Site
 theme: PaperMod
 
 enableInlineShortcodes: true
