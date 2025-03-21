@@ -34,7 +34,7 @@ menu:
             target: "_blank"
 
 params:
-    description: "I am a final-year CSE undergrad from India. My research is focused on continual learning in complex world models."
+    description: "I'm an AI Research Engineer exploring the intersection of **AI, reasoning, and scientific discovery**."
     author: Diksha Shrivastava
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -93,7 +93,7 @@ params:
 
     socialIcons:
         - name: CV
-          url: cv_diksha.pdf
+          url: Diksha_CV.pdf
         - name: Email
           url: mailto:diksharaigarh57@gmail.com
         - name: GitHub
