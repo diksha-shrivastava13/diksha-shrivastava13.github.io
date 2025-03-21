@@ -14,7 +14,7 @@ menu:
           url: research/
           weight: 1
         - name: Resume
-          url: cv_diksha.pdf
+          url: Diksha_CV.pdf
           weight: 2
           params:
             target: "_blank"
@@ -77,7 +77,7 @@ params:
             - name: Research
               url: research/
             - name: Resume
-              url: cv_diksha.pdf
+              url: Diksha_CV.pdf
               params:
                 target: "_blank"
             - name: News
