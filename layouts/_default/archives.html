@@ -38,7 +38,10 @@
           </span>
           {{- end }}
         </h3>
-        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}"
+   href="{{ with .Params.redirect }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}"
+   {{ if .Params.redirect }}target="_blank" rel="noopener noreferrer"{{ end }}>
+</a>
       </div>
       {{- end }}
       {{- end }}

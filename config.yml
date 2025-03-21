@@ -10,21 +10,28 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
+        - name: Research
+          url: research/
+          weight: 1
+        - name: Resume
+          url: cv_diksha.pdf
           weight: 2
-        - name: Courses
-          url: courses/
+          params:
+            target: "_blank"
+        - name: News
+          url: news/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
+        - name: Tags
+          url: tags/
+          weight: 4
+        - name: Archive
+          url: archive/
+          weight: 5
         - name: Blog
           url: https://diksha-shrivastava13.notion.site/Diksha-s-Musings-and-Findings-148e9b1b1b2a8033bd1edb5b41a5b382
           weight: 6
+          params:
+            target: "_blank"
 
 params:
     description: "I am a final-year CSE undergrad from India. My research is focused on continual learning in complex world models."
@@ -34,12 +41,12 @@ params:
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
-    ShowShareButtons: true
-    ShowReadingTime: true
+    ShowShareButtons: false
+    ShowReadingTime: false
     disableSpecial1stPost: false
     disableAnchoredHeadings: false
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: true
     MainSections: ["resume", "research", "news"]
@@ -48,31 +55,31 @@ params:
     TocOpen: true
     ShowWordCount: false
     UseHugoToc: true
-    comments: false
+    comments: true
     math: true
     profileMode:
           enabled: true
-          title: Hi, I'm Diksha Shrivastava!
-          subtitle: "
-          I'm an AI Research Engineer and final-year CS student specialising in AI, graduating in June 2025.  
-          For the past year, I’ve been working to bridge the inherent understanding of language models with **representations of 
-          complex worlds**—enabling them to uncover **deep causal relationships** and fundamental rules governing vast systems, 
-          eventually driving automated scientific discovery.
-          <br>Previously, I’ve **shipped two products** on Decision-Making and Internal Search for BMZ and SAP, 
-          respectively — both vetted by investors and users.
-          <br><br> 
-          My research interests include AI for Scientific Discovery, Continual Learning in 
-          Complex World Models, Decision-Making in Language Models & Language Model Reasoning.
+          title: Diksha Shrivastava
+          subtitle: " 
+          I'm an AI Research Engineer exploring the intersection of **AI, reasoning, and scientific discovery**.
+          For the past year, I’ve been working on bridging language models' internal representations with **structured 
+          models of complex worlds**, enabling them to uncover **deep causal relationships** and fundamental rules governing 
+          vast systems—critical for AI-driven scientific discovery.
+          My research interests include AI for Scientific Discovery, Continual Learning in Complex World Models, 
+          Decision-Making in Language Models, and Language Model Reasoning.
+
           <br><br>**I am looking for Pre-Doctoral or Research Engineer roles in 2025.**
           "
           imageUrl: "img_diksha.png"
-          imageWidth: 220
-          imageHeight: 220
+          imageWidth: 230
+          imageHeight: 230
           buttons:
             - name: Research
               url: research/
             - name: Resume
               url: cv_diksha.pdf
+              params:
+                target: "_blank"
             - name: News
               url: news/
             - name: Tags
@@ -80,31 +87,27 @@ params:
             - name: Archive
               url: archive/
             - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+              url: https://diksha-shrivastava13.notion.site/Diksha-s-Musings-and-Findings-148e9b1b1b2a8033bd1edb5b41a5b382
+              params:
+                target: "_blank"
 
     socialIcons:
         - name: CV
           url: cv_diksha.pdf
         - name: Email
           url: mailto:diksharaigarh57@gmail.com
-        - name: Location
-          url: location/
-#        - name: Google Scholar
-#          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: GitHub
           url: https://github.com/diksha-shrivastava13
-        - name: Substack
-          url: https://substack.com/@dikshashrivastava13
         - name: X
           url: https://x.com/Diksha1713
         - name: LinkedIn
           url: https://www.linkedin.com/in/diksha-shrivastava13/
 
     assets:
-        disableScrollBarStyle: true
+        disableScrollBarStyle: false
     cover:
-        hiddenInList: false
-        hiddenInSingle: true
+        hiddenInList: true
+        hiddenInSingle: false
     label:
       text: "Diksha Shrivastava"
       icon: favicon.ico

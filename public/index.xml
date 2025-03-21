@@ -6,70 +6,112 @@
     <description>Recent content on Diksha Shrivastava</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://diksha-shrivastava13.github.io/latent-realities/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Location</title>
-      <link>https://diksha-shrivastava13.github.io/latent-realities/location/</link>
-      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://diksha-shrivastava13.github.io/latent-realities/location/</guid>
-      <description>Professor Dr von Igelfeld&amp;#39;s mailing and office addresses at the Institute of Romance Philology.</description>
+      <title>Bridging Latent Space Reasoning to External World Model Representation for Language Models with Iterative Hypothesis Cycles</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/research/paper2/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/research/paper2/</guid>
+      <description>This paper explores how language models generate and refine internal hypotheses while constructing world models, aiming to bridge their latent reasoning with structured external representations. By analyzing iterative hypothesis cycles, we investigate whether fundamental system rules emerge from latent space dynamics and propose methods to extract and refine these representations for structured reasoning.</description>
     </item>
     <item>
-      <title>Office Hours</title>
-      <link>https://diksha-shrivastava13.github.io/latent-realities/officehours/</link>
-      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://diksha-shrivastava13.github.io/latent-realities/officehours/</guid>
-      <description>Schedule and location for Professor Dr von Igelfeld&amp;#39;s office hours.</description>
+      <title>Grounding Inferred Relationships in Complex World Models with Continual Reasoning</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/research/paper1/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/research/paper1/</guid>
+      <description>This paper proposes a Continual Reasoning framework to improve language models&amp;rsquo; ability to infer relationships in complex world models like ARC-AGI and DABStep. By leveraging a structured external memory for hypothesis generation and refinement, our approach allows models to iteratively learn relationships at inference time, enhancing their adaptability to out-of-distribution tasks.</description>
     </item>
     <item>
-      <title>Your Inner Hedgehog</title>
-      <link>https://diksha-shrivastava13.github.io/latent-realities/papers/paper3/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://diksha-shrivastava13.github.io/latent-realities/papers/paper3/</guid>
-      <description>This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021.</description>
+      <title>Agents are Decision-Makers First: Leveraging Graph of Decisions for Intermediate Reward Modeling</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/research/paper3/</link>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/research/paper3/</guid>
+      <description>GoD-IRM introduces intermediate reward modeling for structured decision-making in language models, assigning rewards at each divergence point in a reasoning trajectory. This approach enables fine-grained credit assignment, improving model robustness in long-horizon problem-solving. By reinforcing decision-making rather than just final outputs, GoD-IRM aligns language models more closely with traditional agent-based RL.</description>
     </item>
     <item>
-      <title>List of Irregular Verbs Across Romance Languages</title>
-      <link>https://diksha-shrivastava13.github.io/latent-realities/data/data1/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://diksha-shrivastava13.github.io/latent-realities/data/data1/</guid>
-      <description>This dataset contains all irregular verbs in known Romance languages.</description>
+      <title>Beyond Correctness: Generating New Problems from Divergent Solutions for Reasoning with Rearrangement Sampling</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/research/paper4/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/research/paper4/</guid>
+      <description>Rearrangement Sampling transforms rejected solutions into new problem statements, expanding the problem-solution space beyond correctness constraints. A larger model acts as a judge to assess whether alternative problems can be inferred from divergent completions, assigning structured rewards to prior generations. This enables efficient data reuse, improves distributional coverage, and enhances reasoning generalization across domains.</description>
     </item>
     <item>
-      <title>Unusual Uses For Olive Oil</title>
-      <link>https://diksha-shrivastava13.github.io/latent-realities/papers/paper1/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://diksha-shrivastava13.github.io/latent-realities/papers/paper1/</guid>
-      <description>This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.</description>
+      <title>Closing the Loop: Execution-Guided Continuous Generation for Adaptive Model Reasoning</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/research/paper5/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/research/paper5/</guid>
+      <description>We propose a feedback-driven decoding method where each generated candidate is iteratively refined using execution traces or reward-based adjustments. By conditioning generation on structured feedback from previous attempts, the method enforces progressive error minimization and adaptive correction. This approach enhances model reasoning, reduces compounding failure modes, and improves convergence in both code generation and reinforcement learning-based post-training.</description>
     </item>
     <item>
-      <title>The Finer Points of Sausage Dogs</title>
-      <link>https://diksha-shrivastava13.github.io/latent-realities/papers/paper2/</link>
-      <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://diksha-shrivastava13.github.io/latent-realities/papers/paper2/</guid>
-      <description>This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004.</description>
+      <title>Can Language Models Formulate ML Problems?</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog8/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog8/</guid>
+      <description>LLMs struggle to identify ML problems in real-world data, limiting their reliability for analytical tasks. While agentic systems offer partial solutions, true automation requires reasoning over complex systems. This blog examines these challenges and explores a new data representation model as a potential step forward.</description>
     </item>
     <item>
-      <title>Lectures at the Villa of Reduced Circumstances</title>
-      <link>https://diksha-shrivastava13.github.io/latent-realities/courses/course1/</link>
-      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>https://diksha-shrivastava13.github.io/latent-realities/courses/course1/</guid>
-      <description>This graduate course presents classical results in Romance philology.</description>
+      <title>The Need for Hypotheses Generation Cycles, Similar Link Prediction &amp; Agency for Dynamic Databases</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog7/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog7/</guid>
+      <description>A robust framework for reasoning requires more than memorization; it must dynamically form and refine hypotheses. Inspired by theorem-proving frameworks, I propose a dynamic database with static relationships and evolving entities, enabling hypothesis cycles and similar link prediction. This method allows LLMs to infer hidden relationships across subsystems, addressing challenges in AI-driven scientific discovery and decision-making.</description>
     </item>
     <item>
-      <title>Portugese Irregular Verbs</title>
-      <link>https://diksha-shrivastava13.github.io/latent-realities/books/book1/</link>
-      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>https://diksha-shrivastava13.github.io/latent-realities/books/book1/</guid>
-      <description>This book discusses Portugese irregular verbs in great details.</description>
+      <title>Developing Swan AI &amp; the Six Graphical Representations for Complex Systems</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog5/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog5/</guid>
+      <description>I developed Swan AI to explore hybrid vector-graph representations for complex, interrelated systems. The goal was a data pipeline enabling AI to search, converse, and query while preserving hierarchical relationships. Existing knowledge graphs and vector databases lacked dynamic dependency modeling, prompting our exploration of six graphical representations, including hybrid vector-graph models and TensorDB. The core research question: Can LLMs infer hidden relationships in unstructured, hierarchical data to automate decision-making?</description>
     </item>
     <item>
-      <title>Profanity in Early Irish</title>
-      <link>https://diksha-shrivastava13.github.io/latent-realities/courses/course2/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://diksha-shrivastava13.github.io/latent-realities/courses/course2/</guid>
-      <description>This undergraduate course discusses profanity in Early Irish.</description>
+      <title>Thought Experiment: Can LLMs Understand &amp; Predict Similar Links in the &#39;Arc&#39; World?</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog6/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog6/</guid>
+      <description>I tested LLMs&amp;rsquo; ability to predict similar links in complex systems using a thought experiment in the &amp;lsquo;Arc&amp;rsquo; World. Inspired by the ARC-AGI benchmark, I created hidden relationships where objects had different meanings. The experiment revealed LLMs struggle with semantic ambiguity and adapting to unseen structures. This highlights challenges in enabling reasoning and generalization in AI.</description>
+    </item>
+    <item>
+      <title>Introduction: The Problem with Holistic, Interrelated Systems</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog4/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog4/</guid>
+      <description>While working on BMZ&amp;rsquo;s AI system, I realized the problem required a merged vector-graph approach, but the closed nature of the project limited its broader impact. A friend&amp;rsquo;s advice to &amp;lsquo;generalize it&amp;rsquo; led me to formalize holistic, interrelated systems—complex, multi-layered decision-making structures where subsystems interact dynamically. Inspired by Taikyoku Shogi, I explored how AI can infer hidden dependencies within unstructured data, a challenge spanning domains like global logistics, finance, and governance. The key research question emerged: &lt;strong&gt;Can we automate the discovery of implicit relationships in such systems?&lt;/strong&gt;</description>
+    </item>
+    <item>
+      <title>Complete Blog: The Problem of Reasoning in Holistic Systems</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog1/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog1/</guid>
+      <description>This blog presents my research and engineering efforts in language model reasoning, abstract representation of linked entities, and link prediction. It explores my work at BMZ, where I developed agentic multi-hop reasoning systems for policy decisions, and how this experience led me to investigate hidden relationships in complex datasets. Through Swan AI, I examined whether language models can learn, predict, and represent unseen links in dynamic databases. The blog discusses experiments, insights from ARC-AGI, agency in dynamic learning pipelines, and the role of hypothesis cycles in continual learning, culminating in a proposed framework for link prediction and adaptive data representation.</description>
+    </item>
+    <item>
+      <title>My 54 Modifications on Naïve RAG for BMZ</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog3/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog3/</guid>
+      <description>In this deep dive, I break down my iterative modifications to Naïve RAG, tackling the challenge of retrieving and reasoning over complex, hierarchical reports with hidden entity relationships. From agentic parsing and multi-hop retrieval to metadata-validated vector databases, I detail how I optimized retrieval, generation, and reasoning pipelines—reducing response time from 5 minutes to 15 seconds. This post unpacks key technical challenges, my final agentic reasoning pipeline, and the lessons learned in designing AI systems for high-stakes government use cases.</description>
+    </item>
+    <item>
+      <title>The Problem at BMZ: Designing a Decision-Making System for Country Policy Decisions &amp; Negotiations</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog2/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/blogs/blog2/</guid>
+      <description>In 2024, I worked on a GovTech AI system to automate decision-making over deeply hierarchical, unstructured reports. Initially envisioned as a multi-agentic workflow, the project revealed fundamental challenges in reasoning over hidden relationships across multidimensional data. Similar to optimizing strategic imperfection in chess, the system had to dynamically infer cross-level dependencies, making explicit what was never written—highlighting core reasoning failures in current AI approaches.</description>
+    </item>
+    <item>
+      <title>Analysis of Neural Correlates of Different Music Genres using Machine Learning</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/research/paper6/</link>
+      <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/research/paper6/</guid>
+      <description>We apply SVM-based classification to fMRI data, analyzing superior temporal gyrus (STG) activity across ten music genres. Preprocessing is done in SPM12, with feature extraction using an STG mask and classification via PRONTO V3.0. Results reveal distinct genre-specific neural patterns, enabling accurate decoding of music perception and bridging neuroscience with AI.</description>
+    </item>
+    <item>
+      <title>Latest Developments</title>
+      <link>https://diksha-shrivastava13.github.io/latent-realities/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://diksha-shrivastava13.github.io/latent-realities/news/</guid>
+      <description>Latest Developments</description>
     </item>
   </channel>
 </rss>

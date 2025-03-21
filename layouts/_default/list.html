@@ -74,7 +74,11 @@
     {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  {{ if .Params.redirect }}
+  <a class="entry-link" aria-label="post link to {{ .Title }}" href="{{ .Params.redirect }}" target="_blank" rel="noopener noreferrer"></a>
+{{ else }}
+  <a class="entry-link" aria-label="post link to {{ .Title }}" href="{{ .RelPermalink }}"></a>
+{{ end }}
 </article>
 {{- end }}
 
