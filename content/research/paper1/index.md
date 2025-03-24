@@ -10,7 +10,7 @@ cover:
     image: "paper1.png"
     relative: false
 editPost:
-    URL: https://github.com/diksha-shrivastava13
+    URL: https://github.com/Entangled-Causality
     Text: "Work in Progress"
 
 ---
