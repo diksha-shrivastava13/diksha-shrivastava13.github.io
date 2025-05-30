@@ -11,7 +11,7 @@ taxonomies:
 menu:
     main:
         - name: Research
-          url: research/
+          url: https://diksha-shrivastava13.notion.site/Tracing-Footprints-1fde9b1b1b2a80a68d97def371347452
           weight: 1
         - name: Resume
           url: Diksha_Shrivastava.pdf
@@ -28,13 +28,13 @@ menu:
           url: archive/
           weight: 5
         - name: Blog
-          url: https://diksha-shrivastava13.notion.site/Diksha-s-Musings-and-Findings-148e9b1b1b2a8033bd1edb5b41a5b382
+          url: https://diksha-shrivastava13.notion.site/Tracing-Footprints-1fde9b1b1b2a80a68d97def371347452
           weight: 6
           params:
             target: "_blank"
 
 params:
-    description: "I'm an AI Research Engineer exploring the intersection of **AI, reasoning, and scientific discovery**."
+    description: "An AI Research Engineer exploring the intersection of AI, reasoning, and scientific discovery."
     author: Diksha Shrivastava
     googleAnalyticsID: "G-W3WPBKHJMR"
     DateFormat: "January 2006"
@@ -75,7 +75,7 @@ params:
           imageHeight: 230
           buttons:
             - name: Research
-              url: research/
+              url: https://diksha-shrivastava13.notion.site/Tracing-Footprints-1fde9b1b1b2a80a68d97def371347452
             - name: Resume
               url: Diksha_Shrivastava.pdf
               params:
@@ -87,7 +87,7 @@ params:
             - name: Archive
               url: archive/
             - name: Blog
-              url: https://diksha-shrivastava13.notion.site/Diksha-s-Musings-and-Findings-148e9b1b1b2a8033bd1edb5b41a5b382
+              url: https://diksha-shrivastava13.notion.site/Tracing-Footprints-1fde9b1b1b2a80a68d97def371347452
               params:
                 target: "_blank"
 
