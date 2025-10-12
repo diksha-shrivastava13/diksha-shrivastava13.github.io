@@ -14,7 +14,7 @@ menu:
           url: https://diksha-shrivastava13.notion.site/Tracing-Footprints-1fde9b1b1b2a80a68d97def371347452
           weight: 1
         - name: Resume
-          url: Diksha_Shrivastava.pdf
+          url: Diksha_Shrivastava_v5.pdf
           weight: 2
           params:
             target: "_blank"
@@ -34,7 +34,7 @@ menu:
             target: "_blank"
 
 params:
-    description: "An AI Research Engineer exploring the intersection of AI, reasoning, and scientific discovery."
+    description: "Independent Researcher working on AI Safety via Causal Discovery and Scalable Oversight."
     author: Diksha Shrivastava
     googleAnalyticsID: "G-W3WPBKHJMR"
     DateFormat: "January 2006"
@@ -60,15 +60,23 @@ params:
     profileMode:
           enabled: true
           title: Diksha Shrivastava
-          subtitle: " 
-          I'm an AI Research Engineer exploring the intersection of **AI, reasoning, and scientific discovery**.
-          For the past year, I’ve been working on bridging language models' internal representations with **structured 
-          models of complex worlds**, enabling them to uncover **deep causal relationships** and fundamental rules governing 
-          vast systems—critical for AI-driven scientific discovery.
-          My research interests include AI for Scientific Discovery, Continual Learning in Complex World Models, 
-          Decision-Making in Language Models, and Language Model Reasoning.
-
-          <br><br>**I am looking for Pre-Doctoral or Research Engineer roles in 2025.**
+          subtitle: "
+          I'm an independent **AI Safety Researcher** based out of India, broadly interested in Scalable Oversight, Natural Abstractions and 
+          Scientist AI. My answer to <u>[Hamming's Question](https://www.lesswrong.com/posts/P5k3PGzebd5yYrYqd/the-hamming-question)</u>
+          is designing **truth-seeking agents** which discover the **causal abstractions in an open-ended world** in an external,
+          interpretable and intervenable way. I'm currently working on this agenda with <u>[Lossfunk](https://lossfunk.com/)</u>, 
+          and supporting the development of an AI Safety ecosystem in India. I've previously shipped two products, 
+          completed some fellowships, recently graduated, and attended FAEB — the Finnish iteration of ARENA. These days, 
+          I spend most of my time thinking about the **threat models arising from Open-Endedness** and red-teaming research 
+          agendas to work with Scalable Oversight. 
+          <br><br>
+          _If you’re a student of Indian origin interested in safety research, and an amount of around 20k (or less) 
+          could make a difference for you, <u>[please reach out to me](mailto:diksharaigarh57@gmail.com)</u>._
+          <br><br>
+          Note: I’m not active on social media — the best way to reach me is by email. 
+          <br>
+          
+          **I'm open to AI Safety Residencies beginning Spring 2026.**  
           "
           imageUrl: "img_diksha.png"
           imageWidth: 230
@@ -77,7 +85,7 @@ params:
             - name: Research
               url: https://diksha-shrivastava13.notion.site/Tracing-Footprints-1fde9b1b1b2a80a68d97def371347452
             - name: Resume
-              url: Diksha_Shrivastava.pdf
+              url: Diksha_Shrivastava_v5.pdf
               params:
                 target: "_blank"
             - name: News
@@ -93,7 +101,7 @@ params:
 
     socialIcons:
         - name: CV
-          url: Diksha_Shrivastava.pdf
+          url: Diksha_Shrivastava_v5.pdf
         - name: Email
           url: mailto:diksharaigarh57@gmail.com
         - name: GitHub
