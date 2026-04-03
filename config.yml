@@ -11,7 +11,7 @@ taxonomies:
 menu:
     main:
         - name: Research
-          url: https://diksha-shrivastava13.notion.site/Tracing-Footprints-1fde9b1b1b2a80a68d97def371347452
+          url: /theory-of-change/
           weight: 1
         - name: Resume
           url: Diksha_Shrivastava_v5.pdf
@@ -21,15 +21,9 @@ menu:
         - name: News
           url: news/
           weight: 3
-        - name: Tags
-          url: tags/
-          weight: 4
-        - name: Archive
-          url: archive/
-          weight: 5
         - name: Blog
           url: https://diksha-shrivastava13.notion.site/Tracing-Footprints-1fde9b1b1b2a80a68d97def371347452
-          weight: 6
+          weight: 4
           params:
             target: "_blank"
 
@@ -61,39 +55,30 @@ params:
           enabled: true
           title: Diksha Shrivastava
           subtitle: "
-          I'm an independent **AI Safety Researcher** based out of India, broadly interested in Scalable Oversight, Natural Abstractions and 
-          Scientist AI. My answer to <u>[Hamming's Question](https://www.lesswrong.com/posts/P5k3PGzebd5yYrYqd/the-hamming-question)</u>
-          is designing **truth-seeking agents** which discover the **causal abstractions in an open-ended world** in an external,
-          interpretable and intervenable way. I'm currently working on this agenda with <u>[Lossfunk](https://lossfunk.com/)</u>, 
-          and supporting the development of an AI Safety ecosystem in India. I've previously shipped two products, 
-          completed some fellowships, recently graduated, and attended FAEB — the Finnish iteration of ARENA. These days, 
-          I spend most of my time thinking about the **threat models arising from Open-Endedness** and red-teaming research 
-          agendas to work with Scalable Oversight. 
-          <br><br>
-          _If you’re a student of Indian origin interested in safety research, and an amount of around 20k (or less) 
-          could make a difference for you, <u>[please reach out to me](mailto:diksharaigarh57@gmail.com)</u>._
-          <br><br>
+          Diksha is an AI Safety Researcher based in India, who has spent the last eight months working full-time on 
+          safety research at a capability-first lab and is now moving to independent work. Her research sits at the 
+          intersection of dynamic agency, multi-agent risks, developmental interpretability and scalable oversight — 
+          she’s building upon Causal Incentives research to study how co-evolving environments shape temporal goal 
+          structures in RL agents using regret-based Unsupervised Environment Design. She’s particularly interested in 
+          what it means for an agent to model its own training process, and what that implies for oversight. 
+          Alongside her research, she volunteers in reading groups and mentors people new to AI Safety. She’s always 
+          glad to talk about risks from open-endedness, agent epistemics, or alignment as an environment design problem.
+          <br><br> 
           Note: I’m not active on social media — the best way to reach me is by email. 
-          <br>
-          
-          **I'm open to AI Safety Residencies beginning Spring 2026.**  
+          <br> 
           "
           imageUrl: "img_diksha.png"
           imageWidth: 230
           imageHeight: 230
           buttons:
             - name: Research
-              url: https://diksha-shrivastava13.notion.site/Tracing-Footprints-1fde9b1b1b2a80a68d97def371347452
+              url: /theory-of-change/
             - name: Resume
               url: Diksha_Shrivastava_v5.pdf
               params:
                 target: "_blank"
             - name: News
               url: news/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
             - name: Blog
               url: https://diksha-shrivastava13.notion.site/Tracing-Footprints-1fde9b1b1b2a80a68d97def371347452
               params:

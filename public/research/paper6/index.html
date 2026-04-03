@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Analysis of Neural Correlates of Different Music Genres using Machine Learning | Diksha Shrivastava</title>
+<meta name="keywords" content="Cognitive Science, f-MRI, Machine Learning, Psychophysics">
+<meta name="description" content="We apply SVM-based classification to fMRI data, analyzing superior temporal gyrus (STG) activity across ten music genres. Preprocessing is done in SPM12, with feature extraction using an STG mask and classification via PRONTO V3.0. Results reveal distinct genre-specific neural patterns, enabling accurate decoding of music perception and bridging neuroscience with AI.">
+<meta name="author" content="Diksha Shrivastava,&thinsp;Dr. Anuj Bharti">
+<link rel="canonical" href="https://diksha-shrivastava13.github.io/research/paper6/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.373927f16fde743f45e06ead79b571f0994f72916f06fb2be98c4dc9b0dba5a0.css" integrity="sha256-Nzkn8W/edD9F4G6tebVx8JlPcpFvBvsr6YxNybDbpaA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://diksha-shrivastava13.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://diksha-shrivastava13.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://diksha-shrivastava13.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://diksha-shrivastava13.github.io/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://diksha-shrivastava13.github.io/research/paper6/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Analysis of Neural Correlates of Different Music Genres using Machine Learning" />
+<meta property="og:description" content="We apply SVM-based classification to fMRI data, analyzing superior temporal gyrus (STG) activity across ten music genres. Preprocessing is done in SPM12, with feature extraction using an STG mask and classification via PRONTO V3.0. Results reveal distinct genre-specific neural patterns, enabling accurate decoding of music perception and bridging neuroscience with AI." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://diksha-shrivastava13.github.io/research/paper6/" />
+<meta property="og:image" content="https://diksha-shrivastava13.github.io/paper1.png" /><meta property="article:section" content="research" />
+<meta property="article:published_time" content="2022-06-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-07-12T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://diksha-shrivastava13.github.io/paper1.png" />
+<meta name="twitter:title" content="Analysis of Neural Correlates of Different Music Genres using Machine Learning"/>
+<meta name="twitter:description" content="We apply SVM-based classification to fMRI data, analyzing superior temporal gyrus (STG) activity across ten music genres. Preprocessing is done in SPM12, with feature extraction using an STG mask and classification via PRONTO V3.0. Results reveal distinct genre-specific neural patterns, enabling accurate decoding of music perception and bridging neuroscience with AI."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Researches",
+      "item": "https://diksha-shrivastava13.github.io/research/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Analysis of Neural Correlates of Different Music Genres using Machine Learning",
+      "item": "https://diksha-shrivastava13.github.io/research/paper6/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Analysis of Neural Correlates of Different Music Genres using Machine Learning",
+  "name": "Analysis of Neural Correlates of Different Music Genres using Machine Learning",
+  "description": "We apply SVM-based classification to fMRI data, analyzing superior temporal gyrus (STG) activity across ten music genres. Preprocessing is done in SPM12, with feature extraction using an STG mask and classification via PRONTO V3.0. Results reveal distinct genre-specific neural patterns, enabling accurate decoding of music perception and bridging neuroscience with AI.",
+  "keywords": [
+    "Cognitive Science", "f-MRI", "Machine Learning", "Psychophysics"
+  ],
+  "articleBody": "Abstract (pdf) Human brain follow a modular approach, i.e. different classes of stimuli are process in different brain regions. Auditory stimuli processing is also dependent on the category (e.g. sentences and music are having different neural patterns) (Rogalasky et al., 2011). Further to add, music perception is highly dependent on behavioural traits such experience of the music (Chapin et al., 2010). Nakai, Koide-Majima, and Nishimoto (2020) has experiment with 10 music genres and processed the fMRI scans of 5 subjects. They have reported that superior temporal region (STG) was having different pattern for different music genres, which was capable of classifying the neural activity through data analysis approach. We have acquired the fMRI data of their experiment (from https://openneuro.org/datasets/ds003720/versions/1.0.0) and applied machine learning for automatic classification of neural activity for different music genres. The data contains fMRI scans for 5 subjects and each subject gone through 12 training runs and 6 test runs. In each training run 10 music genre played in random order for 15 seconds each, after intimating the genre name. In test run, 10 music genres were played for 15 seconds each but without intimating the name of genre. The preprocessing of the data is done in SPM 12 and for machine learning, PRONTO V3.0 was used. To make the feature efficient we limited the feature calculation to STG only. The STG mask was created SPM anatomy toolbox. For each training run, a voxel based feature set was prepared. Using the label from design matrix, a supervised machine learning algorithm (support vector machine-SVM) has been applied. The results shows that SVM was able to classify the music genres with significantly better accuracy.\n",
+  "wordCount" : "275",
+  "inLanguage": "en",
+  "image":"https://diksha-shrivastava13.github.io/paper1.png","datePublished": "2022-06-12T00:00:00Z",
+  "dateModified": "2024-07-12T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Diksha Shrivastava"
+  }, {
+    "@type": "Person",
+    "name": "Dr. Anuj Bharti"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://diksha-shrivastava13.github.io/research/paper6/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Diksha Shrivastava",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://diksha-shrivastava13.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W3WPBKHJMR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W3WPBKHJMR');
+</script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://diksha-shrivastava13.github.io/" accesskey="h" title="Diksha Shrivastava">
+                <img src="https://diksha-shrivastava13.github.io/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Diksha Shrivastava</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://diksha-shrivastava13.github.io/theory-of-change/" title="Research"
+                >
+                    <span>Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://diksha-shrivastava13.github.io/Diksha_Shrivastava_v5.pdf" title="Resume"
+                 target="_blank" rel="noopener noreferrer" >
+                    <span>Resume</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://diksha-shrivastava13.github.io/news/" title="News"
+                >
+                    <span>News</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://diksha-shrivastava13.notion.site/Tracing-Footprints-1fde9b1b1b2a80a68d97def371347452" title="Blog"
+                 target="_blank" rel="noopener noreferrer" >
+                    <span>Blog</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Analysis of Neural Correlates of Different Music Genres using Machine Learning
+    </h1>
+    <div class="post-meta"><span title='2022-06-12 00:00:00 +0000 UTC'>June 2022</span>&nbsp;&middot;&nbsp;Diksha Shrivastava,&thinsp;Dr. Anuj Bharti&nbsp;&middot;&nbsp;<a href="https://www.fechnerday.com/fd2022/" rel="noopener noreferrer" target="_blank">Fechner Day 2022, International Society for Psychophysics (later withdrawn)</a>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="https://diksha-shrivastava13.github.io/paper1.png" alt="">
+        
+</figure>
+  <div class="post-content"><h5 id="abstract-pdf">Abstract <a href="Diksha_abstract.pdf">(pdf)</a><a hidden class="anchor" aria-hidden="true" href="#abstract-pdf">#</a></h5>
+<p>Human brain follow a modular approach, i.e. different classes of stimuli are process in
+different brain regions. Auditory stimuli processing is also dependent on the category
+(e.g. sentences and music are having different neural patterns) (Rogalasky et al., 2011).
+Further to add, music perception is highly dependent on behavioural traits such
+experience of the music (Chapin et al., 2010). <br><br>
+Nakai, Koide-Majima, and Nishimoto (2020) has experiment with 10 music genres and
+processed the fMRI scans of 5 subjects. They have reported that superior temporal
+region (STG) was having different pattern for different music genres, which was
+capable of classifying the neural activity through data analysis approach. <br><br>
+We have acquired the fMRI data of their experiment (from
+<a href="https://openneuro.org/datasets/ds003720/versions/1.0.0" target="_blank">https://openneuro.org/datasets/ds003720/versions/1.0.0</a>) and applied machine learning
+for automatic classification of neural activity for different music genres. The data
+contains fMRI scans for 5 subjects and each subject gone through 12 training runs and 6
+test runs. In each training run 10 music genre played in random order for 15 seconds
+each, after intimating the genre name. In test run, 10 music genres were played for
+15 seconds each but without intimating the name of genre. <br><br>
+The preprocessing of the data is done in SPM 12 and for machine learning, PRONTO
+V3.0 was used. To make the feature efficient we limited the feature calculation to STG
+only. The STG mask was created SPM anatomy toolbox. For each training run, a voxel
+based feature set was prepared. Using the label from design matrix, a supervised
+machine learning algorithm (support vector machine-SVM) has been applied. <br><br>
+The results shows that SVM was able to classify the music genres with significantly
+better accuracy.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://diksha-shrivastava13.github.io/tags/cognitive-science/">Cognitive Science</a></li>
+      <li><a href="https://diksha-shrivastava13.github.io/tags/f-mri/">F-MRI</a></li>
+      <li><a href="https://diksha-shrivastava13.github.io/tags/machine-learning/">Machine Learning</a></li>
+      <li><a href="https://diksha-shrivastava13.github.io/tags/psychophysics/">Psychophysics</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="https://diksha-shrivastava13.github.io/">Diksha Shrivastava</a></span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

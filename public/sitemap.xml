@@ -2,106 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://diksha-shrivastava13.github.io/research/paper2/</loc>
-    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/complex-world-model/</loc>
-    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/continual-learning/</loc>
-    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/deep-causal-relationships/</loc>
-    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/</loc>
-    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/hypothesis-generation/</loc>
-    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/latent-space-reasoning/</loc>
-    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/research/</loc>
-    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/scientific-discovery/</loc>
-    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/</loc>
-    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/external-representation/</loc>
-    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/research/paper1/</loc>
-    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/agents/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/research/paper3/</loc>
-    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/decision-making/</loc>
-    <lastmod>2025-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/post-training/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/reinforcement-learning/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/reward-modeling/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/research/paper4/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/rejection-sampling/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/research/paper5/</loc>
-    <lastmod>2025-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/language-model-reasoning/</loc>
-    <lastmod>2025-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/blogs/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/blogs/blog8/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/tags/technical-blog/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/blogs/blog7/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/blogs/blog5/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/blogs/blog6/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/blogs/blog4/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/blogs/blog1/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/blogs/blog3/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://diksha-shrivastava13.github.io/blogs/blog2/</loc>
-    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://diksha-shrivastava13.github.io/research/paper6/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://diksha-shrivastava13.github.io/tags/cognitive-science/</loc>
+    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://diksha-shrivastava13.github.io/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://diksha-shrivastava13.github.io/tags/f-mri/</loc>
@@ -113,8 +20,16 @@
     <loc>https://diksha-shrivastava13.github.io/tags/psychophysics/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://diksha-shrivastava13.github.io/research/</loc>
+    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://diksha-shrivastava13.github.io/tags/</loc>
+    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://diksha-shrivastava13.github.io/archive/</loc>
   </url><url>
     <loc>https://diksha-shrivastava13.github.io/news/</loc>
+  </url><url>
+    <loc>https://diksha-shrivastava13.github.io/theory-of-change/</loc>
   </url>
 </urlset>

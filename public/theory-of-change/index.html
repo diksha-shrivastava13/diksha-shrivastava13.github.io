@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Theory of Change | Diksha Shrivastava</title>
+<meta name="keywords" content="">
+<meta name="description" content="My theory of change for AI Safety research.">
+<meta name="author" content="Diksha Shrivastava">
+<link rel="canonical" href="https://diksha-shrivastava13.github.io/theory-of-change/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.373927f16fde743f45e06ead79b571f0994f72916f06fb2be98c4dc9b0dba5a0.css" integrity="sha256-Nzkn8W/edD9F4G6tebVx8JlPcpFvBvsr6YxNybDbpaA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://diksha-shrivastava13.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://diksha-shrivastava13.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://diksha-shrivastava13.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://diksha-shrivastava13.github.io/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://diksha-shrivastava13.github.io/theory-of-change/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Theory of Change" />
+<meta property="og:description" content="My theory of change for AI Safety research." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://diksha-shrivastava13.github.io/theory-of-change/" /><meta property="article:section" content="" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Theory of Change"/>
+<meta name="twitter:description" content="My theory of change for AI Safety research."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Theory of Change",
+      "item": "https://diksha-shrivastava13.github.io/theory-of-change/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Theory of Change",
+  "name": "Theory of Change",
+  "description": "My theory of change for AI Safety research.",
+  "keywords": [
+    
+  ],
+  "articleBody": "As of March 2026 Agency should be studied as being dynamic in nature and with the potential to decide and change its own objectives in the face of novel scenarios. Future agents will likely learn continually, in environments that co-evolve with their behaviour, forming and revising goals throughout their lifecycles. The risk posed by such agents is the complete unpredictability of their behaviour and the downstream effects of their decisions—both in environments shaped by their feedback and in human-AI interactions shaped by their decisions. Misalignment in such systems may have a developmental trajectory—from initial conditions to every subsequent environment—not handled by the detection methods designed for static systems with fixed objectives. Therefore, empirically studying agency in development should be a priority.\nThis project was initially started to understand how and under what selection pressures do instrumental subgoals form, their constraints, and the trajectory of their evolution. The central hypothesis is that every environment contains natural attractors for values, which may be selectively picked by the agent depending on its learning path and initial conditions, and which further cause certain subgoals to form, contextually emerge, conflict and compose to evolve with each learning environment. If the agent develops awareness of its own learning trajectory and the co-evolution of the environment with itself, it may actively shape what it learns next, and with it, its own goals and values — by exploiting, cooperating with, or co-opting the curriculum generator.\nMy current research empirically shows that an agent, when trained to perform robustly under evolving environment distributions, develops a predictive model of the data generator driving the curriculum. This study trained RL agents through five different Unsupervised Environment Design (UED) methods that provide an evolving curriculum of environments developed from the agent’s feedback or regret — always presenting the environment with the highest learning potential next. Consequentially, the agent develops a robust enough model to predict the next set of environment variables and their associated difficulty, patterns in the evolving environment, and by how much the environment might shift next. This level of awareness can allow the agent to exploit its knowledge of the data generator, with evaluation awareness and situational awareness as downstream effects.\nFollowing the implications of Richens and Everitt (2024): in a setup involving either (i) an innocuous monitor supervising a stronger agent in nested scalable oversight, or (ii) a stronger teacher designing learning environments for a “newly minted” agent — the weaker agent can learn a robust model of the stronger teacher’s incentives, which can be passively extracted without the risk of collusion, obfuscation or alignment faking. Even an RL agent in a setup designed for being taught by a language model could potentially extract the belief model of the latter. Tested first in a controlled toy setting, this gives us three signals to monitor, each with its own safety implication:\nWhether the teacher is misaligned and trying to corrupt the student agent, as a passive causal world model of the teacher extracted from the student, compared against an explicit objective, if available. How well the student is learning what the teacher is correctly teaching, as extracted from the student’s performance on held-out levels — manifesting otherwise as goal misgeneralisation or misspecification. Whether any agent has learnt a hidden misaligned belief structure, which is not elicited through behavioural evaluations alone — even something as subtle as exploitation of training dynamics awareness — as evaluated from the passive extraction of its learnt world model in a student-teacher setting. The level of curriculum structure increases across the five UED methods, with the final method having an explicit utility function being maximised by the environment generator — enabling causal interventions, developmental interpretability, and proxy accuracy measurement in a partially observable setting to assess exactly what the agent learns about its training dynamics and if it can exploit it. The thresholds at which a causal world model develops for an agent, and at which it begins to be corrupted through escalating engagement with a misaligned agent, must be understood now — while the systems involved are still small and controllable. If the hypotheses hold under careful controls, our understanding of the alignment problem changes in these ways:\nNested scalable oversight may be achieved passively without collusion or sandbagging. A causal world model of the stronger agent’s belief system can be extracted from a much weaker agent, if the agent is trained to be robust to the teacher’s curriculum. Curriculum design becomes a core alignment tool. The underlying assumption — every environment contains latent values, selectively instantiated by the agent’s learning path — makes curriculum design and prohibition of some agentic traits (through Path-Specific Objectives; Farquhar et al., 2022) an essential part of solving the alignment problem. Insight into how values and goals evolve over an agent’s lifecycle. Understanding how values are induced by environments, and how goals contextually activate, emerge, conflict, compose, and evolve throughout training, clarifies what methods break when the static assumptions of mechanistic interpretability are not held. New evaluation methods. Understanding how evaluation awareness develops as a downstream effect of emergent awareness of training dynamics, and whether it is conditional solely on the agent recognising distributional differences between interactions, makes new evaluation methods possible. Early warning signal. Understanding whether current (emergent) goal misgeneralisation is a strategic exploitation of training dynamics awareness at varying depth levels, when and how it may arise, what selection pressures (Sadek et al., 2025) may be required for it, and how it might corrupt a multi-agent network, enables early detection of misgeneralised agent behaviour. The first implication — passive scalable oversight via causal world model extraction — is the most important and urgent to test carefully for the alignment problem. As such, current work focuses on analysing how robust, interpretable and faithful these causal world models can be, what exactly the agent learns, and whether there are failure modes not yet accounted for.\n",
+  "wordCount" : "977",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Diksha Shrivastava"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://diksha-shrivastava13.github.io/theory-of-change/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Diksha Shrivastava",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://diksha-shrivastava13.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W3WPBKHJMR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W3WPBKHJMR');
+</script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://diksha-shrivastava13.github.io/" accesskey="h" title="Diksha Shrivastava">
+                <img src="https://diksha-shrivastava13.github.io/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Diksha Shrivastava</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://diksha-shrivastava13.github.io/theory-of-change/" title="Research"
+                >
+                    <span class="active">Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://diksha-shrivastava13.github.io/Diksha_Shrivastava_v5.pdf" title="Resume"
+                 target="_blank" rel="noopener noreferrer" >
+                    <span>Resume</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://diksha-shrivastava13.github.io/news/" title="News"
+                >
+                    <span>News</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://diksha-shrivastava13.notion.site/Tracing-Footprints-1fde9b1b1b2a80a68d97def371347452" title="Blog"
+                 target="_blank" rel="noopener noreferrer" >
+                    <span>Blog</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Theory of Change
+    </h1>
+    <div class="post-meta">Diksha Shrivastava
+
+</div>
+  </header> 
+  <div class="post-content"><h3 id="as-of-march-2026">As of March 2026<a hidden class="anchor" aria-hidden="true" href="#as-of-march-2026">#</a></h3>
+<p>Agency should be studied as being dynamic in nature and with the potential to decide and change its own objectives in the face of novel scenarios. Future agents will likely learn continually, in environments that co-evolve with their behaviour, forming and revising goals throughout their lifecycles. The risk posed by such agents is the complete unpredictability of their behaviour and the downstream effects of their decisions—both in environments shaped by their feedback and in human-AI interactions shaped by their decisions. Misalignment in such systems may have a developmental trajectory—from initial conditions to every subsequent environment—not handled by the detection methods designed for static systems with fixed objectives. Therefore, empirically studying agency in development should be a priority.</p>
+<p>This project was initially started to understand how and under what selection pressures do instrumental subgoals form, their constraints, and the trajectory of their evolution. The central hypothesis is that every environment contains natural attractors for values, which may be selectively picked by the agent depending on its learning path and initial conditions, and which further cause certain subgoals to form, contextually emerge, conflict and compose to evolve with each learning environment. If the agent develops awareness of its own learning trajectory and the co-evolution of the environment with itself, it may actively shape what it learns next, and with it, its own goals and values — by exploiting, cooperating with, or co-opting the curriculum generator.</p>
+<p>My current research empirically shows that an agent, when trained to perform robustly under evolving environment distributions, develops a predictive model of the data generator driving the curriculum. This study trained RL agents through five different Unsupervised Environment Design (UED) methods that provide an evolving curriculum of environments developed from the agent’s feedback or regret — always presenting the environment with the highest learning potential next. Consequentially, the agent develops a robust enough model to predict the next set of environment variables and their associated difficulty, patterns in the evolving environment, and by how much the environment might shift next. This level of awareness can allow the agent to exploit its knowledge of the data generator, with evaluation awareness and situational awareness as downstream effects.</p>
+<p>Following the implications of Richens and Everitt (2024): in a setup involving either (i) an innocuous monitor supervising a stronger agent in nested scalable oversight, or (ii) a stronger teacher designing learning environments for a “newly minted” agent — the weaker agent can learn a robust model of the stronger teacher’s incentives, which can be passively extracted without the risk of collusion, obfuscation or alignment faking. Even an RL agent in a setup designed for being taught by a language model could potentially extract the belief model of the latter. Tested first in a controlled toy setting, this gives us three signals to monitor, each with its own safety implication:</p>
+<ol>
+<li><strong>Whether the teacher is misaligned and trying to corrupt the student agent,</strong> as a passive causal world model of the teacher extracted from the student, compared against an explicit objective, if available.</li>
+<li><strong>How well the student is learning what the teacher is correctly teaching,</strong> as extracted from the student’s performance on held-out levels — manifesting otherwise as goal misgeneralisation or misspecification.</li>
+<li><strong>Whether any agent has learnt a hidden misaligned belief structure,</strong> which is not elicited through behavioural evaluations alone — even something as subtle as exploitation of training dynamics awareness — as evaluated from the passive extraction of its learnt world model in a student-teacher setting.</li>
+</ol>
+<p>The level of curriculum structure increases across the five UED methods, with the final method having an explicit utility function being maximised by the environment generator — enabling causal interventions, developmental interpretability, and proxy accuracy measurement in a partially observable setting to assess exactly what the agent learns about its training dynamics and if it can exploit it. The thresholds at which a causal world model develops for an agent, and at which it begins to be corrupted through escalating engagement with a misaligned agent, must be understood now — while the systems involved are still small and controllable. If the hypotheses hold under careful controls, our understanding of the alignment problem changes in these ways:</p>
+<ol>
+<li><strong>Nested scalable oversight may be achieved passively without collusion or sandbagging.</strong> A causal world model of the stronger agent’s belief system can be extracted from a much weaker agent, if the agent is trained to be robust to the teacher’s curriculum.</li>
+<li><strong>Curriculum design becomes a core alignment tool.</strong> The underlying assumption — every environment contains latent values, selectively instantiated by the agent&rsquo;s learning path — makes curriculum design and prohibition of some agentic traits (through Path-Specific Objectives; Farquhar et al., 2022) an essential part of solving the alignment problem.</li>
+<li><strong>Insight into how values and goals evolve over an agent’s lifecycle.</strong> Understanding how values are induced by environments, and how goals contextually activate, emerge, conflict, compose, and evolve throughout training, clarifies what methods break when the static assumptions of mechanistic interpretability are not held.</li>
+<li><strong>New evaluation methods.</strong> Understanding how evaluation awareness develops as a downstream effect of emergent awareness of training dynamics, and whether it is conditional solely on the agent recognising distributional differences between interactions, makes new evaluation methods possible.</li>
+<li><strong>Early warning signal.</strong> Understanding whether current (emergent) goal misgeneralisation is a strategic exploitation of training dynamics awareness at varying depth levels, when and how it  may arise, what selection pressures (Sadek et al., 2025) may be required for it, and how it might corrupt a multi-agent network, enables early detection of misgeneralised agent behaviour.</li>
+</ol>
+<p>The first implication — passive scalable oversight via causal world model extraction — is the most important and urgent to test carefully for the alignment problem. As such, current work focuses on analysing how robust, interpretable and faithful these causal world models can be, what exactly the agent learns, and whether there are failure modes not yet accounted for.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="https://diksha-shrivastava13.github.io/">Diksha Shrivastava</a></span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>
